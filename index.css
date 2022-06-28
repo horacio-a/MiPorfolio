@@ -15,22 +15,27 @@
     text-decoration: none;
 }
 
+.center-flex{
+display: flex;
+justify-content: center;
+}
+
+
 .bloque-tecnologia{
-    width: 1500px;
+
+    width: 85%;
     height: 750px;
     background-color: gray;
-    margin-left: 210px;
-    margin-right: 210px;
+
     margin-top: 50PX;
-    border-radius: 10   px;
+    border-radius: 20px;
 
 }
 .bloque-tecnologia-unidad{
-    display: flex;
-    
     width: 375px;
     height: 375px;
     background-color: black;
+    border: 1px solid white;
 }
 
 .titulo-tecnologia{
