@@ -15,6 +15,10 @@
 .margen-r-35{
     margin-right: 35px;
 }
+.margen-tb-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 /* ----------------------margenes------------------------- */
 
 
@@ -61,6 +65,13 @@
     padding-top: 10px;
     
 }
+.titulo-instituciones{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+
 
 .text-nav{
     color: gray;
@@ -164,7 +175,27 @@ justify-content: space-evenly;
     border-radius: 20px;
 }
 /* -------------------------- */
+.bloque-instituciones{
+    width: 750px;
+    height: 650px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-instituciones-unidad{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white ;
+    border-radius: 20px;
+}
 
+.bloque-animacion2{
+    width: 450px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
 
 /* ----------------------bloques------------------------- */
 
