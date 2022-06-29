@@ -71,7 +71,12 @@
     padding-top: 10px;
     
 }
-
+.titulo-contacto{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
 
 .text-nav{
     color: gray;
@@ -115,6 +120,11 @@ justify-content: space-around;
 .space-evenly-flex{
 display: flex;
 justify-content: space-evenly;
+}
+
+.center-flex-ai{
+    display: flex;
+    align-items: center 
 }
 
 /* ----------------------ajustes de pantalla------------------------- */
@@ -195,7 +205,43 @@ justify-content: space-evenly;
     background-color: gray;
     margin-top: 50PX;
     border-radius: 20px;
+    margin-right: 100px;
 }
+/* -------------------------- */
+.bloque-formulario-contacto{
+    width: 600px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-contacto{
+    width: 450px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+    margin-right: 250px;
+}
+/* -------------------------- */
+.bloque-footer{
+    width: 1920px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 50PX;
+}
+.bloque-footer-unidad{
+    width: 573px;
+    height: 250px;
+    background-color: gray;
+}
+.bloque-link-footer{
+    width: 75px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
 
 /* ----------------------bloques------------------------- */
 
