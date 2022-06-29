@@ -1,41 +1,34 @@
+/* ----------------------------------------------Index.html------------------------------------------------ */
+/* ----------------------margenes------------------------- */
 .margen-lr-50{
     margin-left: 50px;
     margin-right: 50px;
 }
+
+.margen-tb-25{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.margen-l-35{
+    margin-left: 35px;
+}
+.margen-r-35{
+    margin-right: 35px;
+}
+/* ----------------------margenes------------------------- */
+
+
+/* ----------------------backgrouonds------------------------- */
 .background-coral{
     background-color: coral;
 }
+/* ----------------------backgrouonds------------------------- */
+
+
+/* ----------------------textos------------------------- */
 .text-nav-active{
     color: black;
     text-decoration: none;
-}
-
-.text-nav{
-    color: gray;
-    text-decoration: none;
-}
-
-.center-flex{
-display: flex;
-justify-content: center;
-}
-
-
-.bloque-tecnologia{
-
-    width: 85%;
-    height: 750px;
-    background-color: gray;
-
-    margin-top: 50PX;
-    border-radius: 20px;
-
-}
-.bloque-tecnologia-unidad{
-    width: 375px;
-    height: 375px;
-    background-color: black;
-    border: 1px solid white;
 }
 
 .titulo-tecnologia{
@@ -44,3 +37,137 @@ justify-content: center;
     padding-top: 10px;
     
 }
+.titulo-habilidades{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-foto{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-presentacion{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-animacion{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+
+.text-nav{
+    color: gray;
+    text-decoration: none;
+}
+/* ----------------------textos------------------------- */
+
+
+
+
+
+/* ----------------------ajustes de pantalla------------------------- */
+
+
+
+.flex-start-flex{
+display: flex;
+justify-content: flex-start;
+}
+
+.flex-end-flex{
+display: flex;
+justify-content: flex-end;
+}
+
+.center-flex{
+display: flex;
+justify-content: center;
+}
+
+.space-between-flex{
+display: flex;
+justify-content: space-between;
+}
+
+.space-around-flex{
+display: flex;
+justify-content: space-around;
+}
+
+.space-evenly-flex{
+display: flex;
+justify-content: space-evenly;
+}
+
+/* ----------------------ajustes de pantalla------------------------- */
+
+
+/* ----------------------bloques------------------------- */
+.bloque-tecnologia{
+
+    width: 85%;
+    height: 647.5px;
+    background-color: gray;
+
+    margin-top: 50PX;
+    border-radius: 20px;
+
+}
+.bloque-tecnologia-unidad{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white ;
+    border-radius: 20px;
+
+}
+/* -------------------------- */
+.bloque-habilidades{
+    width: 85%;
+    height: 647.5px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-habilidades-unidad{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white ;
+    border-radius: 20px;
+}
+/* -------------------------- */
+.bloque-foto{
+    width: 250px;
+    height: 400px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-presentacion{
+    width: 550px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-animacion{
+    width: 450px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+/* -------------------------- */
+
+
+/* ----------------------bloques------------------------- */
+
+/* ------------------------------------------------CriptoWord.html---------------------------------------------- */
+
+
