@@ -1,0 +1,309 @@
+/* ----------------------------------------------Index.html------------------------------------------------ */
+/* ----------------------margenes------------------------- */
+.margen-lr-50{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.margen-tb-25{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.margen-l-35{
+    margin-left: 35px;
+}
+.margen-r-35{
+    margin-right: 35px;
+}
+.margen-tb-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* ----------------------margenes------------------------- */
+
+
+/* ----------------------backgrouonds------------------------- */
+.background-coral{
+    background-color: coral;
+}
+.background-111111{
+    background-color: #111111;
+}
+/* ----------------------backgrouonds------------------------- */
+
+
+/* ----------------------textos------------------------- */
+.text-nav-active{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+.titulo-tecnologia{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    color: #777777;
+    
+}
+.titulo-habilidades{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-foto{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-presentacion{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-animacion{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-instituciones{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+.titulo-contacto{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    
+}
+
+.text-nav{
+    color: #777777;
+    text-decoration: none;
+}
+/* ----------------------textos------------------------- */
+
+
+
+
+
+/* ----------------------ajustes de pantalla------------------------- */
+
+
+
+.flex-start-flex-j{
+display: flex;
+justify-content: flex-start;
+}
+
+.flex-end-flex-j{
+display: flex;
+justify-content: flex-end;
+}
+
+.center-flex-j{
+display: flex;
+justify-content: center;
+}
+
+.space-between-flex-j{
+display: flex;
+justify-content: space-between;
+}
+
+.space-around-flex-j{
+display: flex;
+justify-content: space-around;
+}
+
+.space-evenly-flex-j{
+display: flex;
+justify-content: space-evenly;
+}
+
+.center-flex-ai{
+    display: flex;
+    align-items: center;
+}
+.center-flex-ai{
+    display: flex;
+    align-items: center ;
+}
+.center-flex-ai{
+    display: flex;
+    align-items: center ;
+}
+
+/* ----------------------ajustes de pantalla------------------------- */
+
+
+/* ----------------------bloques------------------------- */
+.bloque-nav{
+    width: 100%;
+    height: 100px;
+    background-color: #115173;
+}
+.bloque-nav-home{
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: #115173;
+    transition: all .25s ease-in-out;
+}
+.bloque-nav-home:hover{
+    width: 300px;
+    height: 100px;
+    background-color: #e6c404;
+    color: white;
+}
+.bloque-nav-proyecto{
+    width: 810px;
+    height: 100px;
+
+}
+.bloque-nav-titulo{
+    width: 810px;
+    height: 50px;
+
+}
+.bloque-titulo{
+    width: 700px;
+    height: 50px;
+
+}
+.bloque-proyectos{
+    width: 810px;
+    height: 50px;
+
+}
+.bloque-proyectos-unidad{
+    width: 175px;
+    height: 50px;
+
+}
+
+/* -------------------------- */
+
+
+.bloque-tecnologia{
+
+    width: 85%;
+    height: 647.5px;
+
+
+    margin-top: 50PX;
+    border-radius: 20px;
+
+}
+.bloque-tecnologia-unidad{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white ;
+    border-radius: 20px;
+
+}
+/* -------------------------- */
+.bloque-habilidades{
+    width: 85%;
+    height: 647.5px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-habilidades-unidad{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white ;
+    border-radius: 20px;
+}
+/* -------------------------- */
+.bloque-foto{
+    width: 250px;
+    height: 400px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-presentacion{
+    width: 550px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-animacion{
+    width: 450px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+/* -------------------------- */
+.bloque-instituciones{
+    width: 750px;
+    height: 650px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-instituciones-unidad{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white ;
+    border-radius: 20px;
+}
+
+.bloque-animacion2{
+    width: 450px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+/* -------------------------- */
+.bloque-formulario-contacto{
+    width: 600px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+}
+.bloque-contacto{
+    width: 450px;
+    height: 550px;
+    background-color: gray;
+    margin-top: 50PX;
+    border-radius: 20px;
+    margin-right: 250px;
+}
+/* -------------------------- */
+.bloque-footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 50PX;
+}
+.bloque-footer-unidad{
+    width: 573px;
+    height: 250px;
+    background-color: gray;
+}
+.bloque-link-footer{
+    width: 75px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+
+/* ----------------------bloques------------------------- */
+
+/* ------------------------------------------------CriptoWord.html---------------------------------------------- */
+
+
