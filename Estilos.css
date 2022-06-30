@@ -1,3 +1,18 @@
+
+/*  palette light
+    213E3B
+    41AEA9
+    A6F6F1
+    E8FFFF 
+*/
+/*  palette dark
+    222222
+    045757
+    044343
+    e4e4e4 
+*/
+
+
 /* ----------------------------------------------Index.html------------------------------------------------ */
 /* ----------------------margenes------------------------- */
 .margen-lr-50{
@@ -27,7 +42,7 @@
     background-color: coral;
 }
 .background-111111{
-    background-color: #111111;
+    background-color: #a6f6f1;
 }
 /* ----------------------backgrouonds------------------------- */
 
@@ -146,45 +161,55 @@ justify-content: space-evenly;
 .bloque-nav{
     width: 100%;
     height: 100px;
-    background-color: #111111;
+    background-color: #41AEA9;
 }
 .bloque-nav-home{
-    width: 300px;
+    width: 15.645%;
     height: 100px;
-    background-color: #111111;
+    border-radius: 15px;
+    background-color: #41AEA9;
     transition: all .25s ease-in-out;
 }
 .bloque-nav-home:hover{
-    width: 300px;
+    width: 15.645%;
     height: 100px;
-    background-color: #FF4D00;
+    background-color: #213e3b;
+    color: white;
 }
 .bloque-nav-proyecto{
-    width: 810px;
+    width: 42.175%;
     height: 100px;
 
 }
 .bloque-nav-titulo{
-    width: 810px;
+    width:  100%;
     height: 50px;
 
 }
 .bloque-titulo{
-    width: 700px;
+    width: 86.41%;
     height: 50px;
 
 }
 .bloque-proyectos{
-    width: 810px;
+    width:  100%;
     height: 50px;
 
 }
 .bloque-proyectos-unidad{
-    width: 175px;
+    width: 21.6%;
     height: 50px;
+    border-radius: 15px;
+
+    transition: all .25s ease-in-out;
+}
+.bloque-proyectos-unidad:hover{
+    width: 21.6%;
+    height: 50px;
+    background-color: #213e3b;
+    color: white;
 
 }
-
 
 /* -------------------------- */
 
@@ -202,7 +227,7 @@ justify-content: space-evenly;
 .bloque-tecnologia-unidad{
     width: 250px;
     height: 250px;
-    border: 2px solid white ;
+    border: 2px solid #E8FFFF ;
     border-radius: 20px;
 
 }
@@ -217,29 +242,36 @@ justify-content: space-evenly;
 .bloque-habilidades-unidad{
     width: 250px;
     height: 250px;
-    border: 2px solid white ;
+    border: 2px solid #E8FFFF ;
     border-radius: 20px;
 }
 /* -------------------------- */
+.bloque-primeraparte{
+    width: 100%;
+    height: 980px;
+}
+.bloque-columna-foto{
+    width: 13.02%;
+
+    margin-left: 35px;
+}
 .bloque-foto{
-    width: 250px;
-    height: 400px;
-    background-color: gray;
-    margin-top: 50PX;
+    width: 100%;
+    margin-top: 50%;
     border-radius: 20px;
 }
 .bloque-presentacion{
-    width: 550px;
-    height: 550px;
+    width: 28.64%;
+    height: 50.92%;
     background-color: gray;
-    margin-top: 50PX;
+
     border-radius: 20px;
 }
 .bloque-animacion{
-    width: 450px;
-    height: 550px;
+    width: 23.4375%;
+    height: 56.12244%;
     background-color: gray;
-    margin-top: 50PX;
+
     border-radius: 20px;
 }
 /* -------------------------- */
@@ -253,7 +285,7 @@ justify-content: space-evenly;
 .bloque-instituciones-unidad{
     width: 250px;
     height: 250px;
-    border: 2px solid white ;
+    border: 2px solid #E8FFFF ;
     border-radius: 20px;
 }
 
