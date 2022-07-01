@@ -19,6 +19,10 @@
     margin-left: 50px;
     margin-right: 50px;
 }
+.margen-lr-5{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 .margen-tb-25{
     margin-top: 35px;
@@ -27,8 +31,15 @@
 .margen-l-35{
     margin-left: 35px;
 }
+.margen-l-20{
+    margin-left: 20px;
+}
+
 .margen-r-35{
     margin-right: 35px;
+}
+.margen-t-15{
+    margin-top: 15px;
 }
 .margen-tb-50{
     margin-top: 50px;
@@ -60,7 +71,7 @@
     text-align: center;
     font-size: 25px;
     padding-top: 10px;
-    color: #777777;
+    color: #e4e4e4 ;
     
 }
 .titulo-habilidades{
@@ -154,12 +165,25 @@ justify-content: space-evenly;
     display: flex;
     align-items: center ;
 }
+.center-inflex-ai{
+    display: inline-flex;
+    align-items: center ;
+}
 
 /* ----------------------ajustes de pantalla------------------------- */
 
 
 /* ----------------------bloques------------------------- */
 .bloque-nav{
+    width: 100%;
+    height: 110px;
+    background-color: #222222;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    transition: all .25s;
+}
+.bloque-nav:hover{
     width: 100%;
     height: 110px;
     background-color: #044343;
@@ -197,13 +221,24 @@ justify-content: space-evenly;
 .bloque-titulo{
     width: 86.41%;
     height: 50px;
+}
+.bloque-titulo:hover{
+    background-color: #045757;
+    width: 86.41%;
+    height: 50px;
+}
+.bloque-titulo:hover .bloque-proyectos-unidad{
+    width: 21.6%;
+    height: 50px;
 
+    border: solid 1px #e4e4e4;
+    border-radius: 15px;
+    background-color: #045757;
+    color: #e4e4e4;
 }
 .bloque-proyectos{
     width:  100%;
     height: 50px;
-
-
 }
 .bloque-proyectos-unidad{
     width: 21.6%;
@@ -231,12 +266,20 @@ justify-content: space-evenly;
 
     width: 85%;
     height: 647.5px;
+    margin-top: 50PX;
+    border-radius: 20px;
+    transition: all .5s ;
 
-
+}
+.bloque-tecnologia:hover{
+    background-color: #044343;
+    width: 85%;
+    height: 647.5px;
     margin-top: 50PX;
     border-radius: 20px;
 
 }
+
 .bloque-tecnologia-unidad{
     width: 250px;
     height: 250px;
@@ -272,11 +315,11 @@ justify-content: space-evenly;
 
     border-radius: 20px;
     -webkit-filter: grayscale(100%);
-    -webkit-transition: all .75s ease-in-out;
+    -webkit-transition: all .75s ease-out;
 }
 .bloque-foto:hover{
     width: 100%;
-    margin-top: -200%;
+    margin-top: -100%;
     border-radius: 20px;
     -webkit-filter: grayscale(0%);
 
@@ -358,4 +401,115 @@ justify-content: space-evenly;
 
 /* ------------------------------------------------CriptoWord.html---------------------------------------------- */
 
+.view {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
 
+
+ }
+ .view .mask,.view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+ }
+ .view img {
+    display: block;
+    position: relative;
+ }
+.view-tenth img {
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+ }
+ .view-tenth:hover img {
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+ }
+ .view-tenth .mask {
+    background-color: #045757;
+    border: #e4e4e4 1px solid;
+
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+ }
+ .view-tenth:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+ }
+ .view-tenth h2 {
+
+    font-size: 20px;
+    margin-top: 15px;
+    background: transparent;
+    text-align: center;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    color: #e4e4e4;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+ }
+ .view-tenth p {
+    color: #dddddd;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    -o-transition: all 0.25s linear;
+    -ms-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+ }
+.barra{
+    width: 90%;
+    height: 1px;
+    background-color: #dddddd;
+    
+}
+ 
+ .view-tenth:hover h2,.view-tenth:hover p, .view-tenth:hover barra{
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+ }
+                 
