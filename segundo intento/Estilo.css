@@ -271,3 +271,10 @@ body{
     animation: animation 0.5s ease-in forwards;
     animation-delay: 0.25s;
 }
+
+.yo{
+    height: 87.8vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
