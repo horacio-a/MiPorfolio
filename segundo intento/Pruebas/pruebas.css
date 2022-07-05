@@ -1,0 +1,23 @@
+
+
+.nombre{
+    display: block;
+    width: 35vw;
+    height: 35vh;
+    
+}
+#P{
+    fill: none;
+    stroke-width: 0.5;
+    stroke: black;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animation 1s ease-in forwards;
+}
+
+@keyframes animation {
+    to{
+        stroke-dashoffset: 0;
+    }
+    
+}

@@ -1,0 +1,273 @@
+body{
+    margin: 0px;
+    background: #222222;
+    background: linear-gradient(284deg,#222222 80%, #044343 80%);
+    background: -webkit-linear-gradient(284deg,#222222 80%, #044343 80%);
+    background: -moz-linear-gradient(284deg,#222222 80%, #044343 80%);
+}
+.nav{
+    width: 100vw;
+    height: 12vh;
+    border-bottom: white 1px solid;  
+    display: flex;
+
+}
+.presentacion{
+    height: 87.8vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    
+}
+.bloque-guias{
+    width: 80vw;
+    height: 12vh;
+
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.guias{
+    margin-left: 5vh;
+    margin-right: 5vh;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    color: white;
+
+}
+.logo img{
+    height: 10vh;
+    width: 10vh;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.nombre{
+    display: block;
+    width: 35vw;
+    height: 35vh;
+    margin-bottom: 10vh;
+    margin-left: 2.5vw;
+}
+#P, #R, #O, #G,#R_3 ,#A,#M, #A_3, #D, #O_2, #R_2 {
+    visibility: hidden;
+    fill-opacity: 0%;
+
+    
+}
+#F, #U, #L, #L_2, #S, #T, #A_2, #C, #K{
+    visibility: hidden;
+    fill-opacity: 0%;
+
+}
+#Albornoz{
+   transform: translateY(-25%);
+   transition: all 0.75s ease-in-out;
+}
+.presentacion:hover #Albornoz{
+    transform: translateY(0%);
+}
+#Horacio{
+    transform: translateY(25%);
+    transition: all 0.75s ease-in-out;
+ }
+ .presentacion:hover #Horacio{
+     transform: translateY(0%);
+ }
+
+.presentacion:hover #P, .presentacion:hover #R,.presentacion:hover #O, .presentacion:hover #G,.presentacion:hover #R_3 ,.presentacion:hover #A,.presentacion:hover #M, .presentacion:hover #A_3,.presentacion:hover  #D,.presentacion:hover #O_2,.presentacion:hover #R_2 {
+
+    stroke: #045757;
+    stroke-width: 0.5;
+    margin-right: 10px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animation 1.5s ease-in forwards;
+    animation-delay: 0.25s;
+
+}
+.presentacion:hover #F,.presentacion:hover #U,.presentacion:hover #L,.presentacion:hover #L_2,.presentacion:hover #S,.presentacion:hover #T,.presentacion:hover #A_2,.presentacion:hover #C,.presentacion:hover #K{
+
+    stroke: #045757;
+    stroke-width: 0.5;
+    margin-right: 10px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animation 1.5s ease-in forwards;
+    animation-delay: 0.25s;
+
+}
+@keyframes animation {
+    50%{
+        visibility: visible;
+        stroke-dashoffset: 50;
+        fill-opacity: 20%;
+        stroke-width: 0.5;
+    }
+    75%{
+        visibility: visible;
+        stroke-dashoffset: 25;
+        fill-opacity: 50%;
+        stroke-width: 0.25;
+    }
+    100%{
+        visibility: visible;
+        stroke-dashoffset: 0;
+        fill-opacity: 100%;
+        stroke-width: 0;
+    }
+    
+}
+.quien_soy{
+    width: 10vh;
+    height: 10vh;
+
+}
+#Sobre{
+    transform: translateY(25%);
+    transition: all 0.5s ease-in-out;
+
+}
+#Mi{
+    transform: translateY(-25%);
+    transition: all 0.5s ease-in-out;
+}
+.quien_soy:hover #Sobre{
+    transform: translateY(0);
+}
+.quien_soy:hover #Mi{
+    transform: translateY(0);
+}
+#Q,#U_nav, #I, #E, #N, #S_nav, #O_nav, #Y{
+    visibility: hidden;
+    fill-opacity: 0%;
+}
+
+
+.quien_soy:hover #Q,.quien_soy:hover #U_nav,.quien_soy:hover #I,.quien_soy:hover #E,.quien_soy:hover #N,.quien_soy:hover #S_nav,.quien_soy:hover #O_nav,.quien_soy:hover #Y{
+    stroke: #045757;
+    stroke-width: 0.5;
+    margin-right: 10px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animation 0.5s ease-in forwards;
+    animation-delay: 0.25s;
+    }
+    
+
+.habilidades{
+    width: 16vh;
+    height: 10vh;
+}
+
+
+#H_habilidad, #T_habilidad, #M_habilidad, #L_habilidad, #coma_habilidad, #C_habilidad, #S_habilidad, #S_2_habilidad, #punto_habilidad, #punto_2_habilidad, #punto_3_habilidad{
+    visibility: hidden;
+    fill-opacity: 0%;
+} 
+
+.habilidades:hover #H_habilidad, .habilidades:hover #T_habilidad,.habilidades:hover #M_habilidad,.habilidades:hover #L_habilidad,.habilidades:hover #coma_habilidad,.habilidades:hover #C_habilidad,.habilidades:hover #S_habilidad,.habilidades:hover #S_2_habilidad,.habilidades:hover #punto_habilidad,.habilidades:hover #punto_2_habilidad,.habilidades:hover #punto_3_habilidad{
+    stroke: #045757;
+    stroke-width: 0.5;
+    margin-right: 10px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animation 0.5s ease-in forwards;
+    animation-delay: 0.25s;
+} 
+#Habilidades{
+    transform: translateY(-14%);
+    transition: all 0.25s ease-in-out;
+
+}
+#Mis{
+    transform: translateY(14%);
+    transition: all 0.25s ease-in-out;
+}
+.habilidades:hover #Habilidades{
+    transform: translateY(0);
+    transition: all 0.25s ease-in-out;
+
+}
+.habilidades:hover #Mis{
+    transform: translateY(0);
+    transition: all 0.25s ease-in-out;
+}
+
+.proyecto{
+    width: 16vh;
+    height: 10vh;
+}
+
+#Mis_proyec{
+    transform: translateY(25%);
+    transition: all 0.5s ease-in-out;
+}
+#Proyectos_proyec{
+    transform: translateY(-25%);
+    transition: all 0.5s ease-in-out;
+}
+.proyecto:hover #Mis_proyec{
+    transform: translateY(0%);
+    transition: all 0.5s ease-in-out;
+}
+.proyecto:hover #Proyectos_proyec{
+    transform: translateY(0%);
+    transition: all 0.5s ease-in-out;
+}
+
+
+#D_proyec, #I_proyec, #S_proyec, #E_proyec, #Ñ_proyec, #O_proyec, #S_2_proyec, #Y_proyec, #R_proyec, #E_3_proyec, #guion_proyec, #D_2_proyec, #I_2_proyec, #S_3_proyec, #E_2_proyec, #Ñ_2_proyec, #O_2_proyec, #S_4_proyec{
+    visibility: hidden;
+    fill-opacity: 0%;
+}
+
+.proyecto:hover #D_proyec,.proyecto:hover #I_proyec,.proyecto:hover #S_proyec,.proyecto:hover #E_proyec,.proyecto:hover #Ñ_proyec,.proyecto:hover #O_proyec,.proyecto:hover #S_2_proyec,.proyecto:hover #Y_proyec,.proyecto:hover #R_proyec,.proyecto:hover #E_3_proyec,.proyecto:hover #guion_proyec,.proyecto:hover #D_2_proyec,.proyecto:hover #I_2_proyec,.proyecto:hover #S_3_proyec,.proyecto:hover #E_2_proyec,.proyecto:hover #Ñ_2_proyec,.proyecto:hover #O_2_proyec,.proyecto:hover #S_4_proyec{
+    stroke: #045757;
+    stroke-width: 0.5;
+    margin-right: 10px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animation 0.5s ease-in forwards;
+    animation-delay: 0.25s;
+}
+
+.contac{
+    width: 16vh;
+    height: 10vh;
+}
+
+#H_contac, #A_contac, #B_contac, #L_contac, #A_2_contac, #M_contac, #E_contac, #S_contac , #O_contac, #Y_contac, #P_contac, #I_contac, #O_2_contac, #L_2_contac, #A_3_contac{
+    visibility: hidden;
+    fill-opacity: 0%;
+}
+
+#Contactame{
+    transform: translateY(24%);
+    transition: all 0.5s ease-in-out;
+}
+
+#Aqui{
+    transform: translateY(-24%);
+    transition: all 0.5s ease-in-out;
+}
+.contac:hover #Contactame{
+    transform: translateY(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.contac:hover #Aqui{
+    transform: translateY(0);
+    transition: all 0.5s ease-in-out;
+}
+
+.contac:hover #H_contac,.contac:hover #A_contac,.contac:hover #B_contac,.contac:hover #L_contac,.contac:hover #A_2_contac,.contac:hover #M_contac,.contac:hover #E_contac,.contac:hover #S_contac ,.contac:hover #O_contac,.contac:hover #Y_contac,.contac:hover #P_contac,.contac:hover #I_contac,.contac:hover #O_2_contac,.contac:hover #L_2_contac,.contac:hover #A_3_contac{
+    stroke: #045757;
+    stroke-width: 0.5;
+    margin-right: 10px;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 100;
+    animation: animation 0.5s ease-in forwards;
+    animation-delay: 0.25s;
+}
