@@ -1,0 +1,23 @@
+
+.proyecto{
+    width: 16vh;
+    height: 10vh;
+}
+
+#Mis_proyec{
+    transform: translateY(0);
+
+}
+#Proyectos_proyec{
+    transform: translateY(0);
+
+}
+
+
+
+#D_proyec, #I_proyec, #S_proyec, #E_proyec, #Ñ_proyec, #O_proyec, #S_2_proyec, #Y_proyec, #R_proyec, #E_3_proyec, #guion_proyec, #D_2_proyec, #I_2_proyec, #S_3_proyec, #E_2_proyec, #Ñ_2_proyec, #O_2_proyec, #S_4_proyec{
+    visibility: visible;
+    fill-opacity: 100%;
+}
+
+

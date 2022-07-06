@@ -1,0 +1,21 @@
+.habilidades{
+    width: 16vh;
+    height: 10vh;
+}
+
+
+#H_habilidad, #T_habilidad, #M_habilidad, #L_habilidad, #coma_habilidad, #C_habilidad, #S_habilidad, #S_2_habilidad, #punto_habilidad, #punto_2_habilidad, #punto_3_habilidad{
+    visibility: visible;
+    fill-opacity: 100%;
+} 
+
+
+#Habilidades{
+    transform: translateY(0);
+
+
+}
+#Mis{
+    transform: translateY(0);
+
+}

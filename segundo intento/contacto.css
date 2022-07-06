@@ -1,0 +1,18 @@
+
+.contac{
+    width: 16vh;
+    height: 10vh;
+}
+
+#H_contac, #A_contac, #B_contac, #L_contac, #A_2_contac, #M_contac, #E_contac, #S_contac , #O_contac, #Y_contac, #P_contac, #I_contac, #O_2_contac, #L_2_contac, #A_3_contac{
+    visibility: visible;
+    fill-opacity: 100%;
+}
+
+#Contactame{
+    transform: translateY(0);
+}
+
+#Aqui{
+    transform: translateY(0);
+}

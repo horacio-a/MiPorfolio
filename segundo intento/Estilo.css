@@ -1,3 +1,53 @@
+.flex-start-flex-j {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-end-flex-j {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center-flex-j {
+    display: flex;
+    justify-content: center;
+}
+
+.space-between-flex-j {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-around-flex-j {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-evenly-flex-j {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.center-flex-ai {
+    display: flex;
+    align-items: center;
+}
+
+.center-flex-ai {
+    display: flex;
+    align-items: center;
+}
+
+.center-flex-ai {
+    display: flex;
+    align-items: center;
+}
+
+.center-inflex-ai {
+    display: inline-flex;
+    align-items: center;
+}
+
 body{
     margin: 0px;
     background: #222222;
@@ -10,15 +60,17 @@ body{
     height: 12vh;
     border-bottom: white 1px solid;  
     display: flex;
-
 }
 .presentacion{
     height: 87.8vh;
     width: 100vw;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
     
 }
+
+
 .bloque-guias{
     width: 80vw;
     height: 12vh;
@@ -27,6 +79,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
 }
 .guias{
     margin-left: 5vh;
@@ -36,18 +89,58 @@ body{
     color: white;
 
 }
-.logo img{
+
+
+.figura{
     height: 10vh;
     width: 10vh;
     margin-top: 10px;
     margin-left: 35px;
+
 }
+
+.figura:hover #Vector_1,.figura:hover #Vector_4,.figura:hover #Vector_5,.figura:hover #Vector_6,.figura:hover #Vector_9,.figura:hover #Vector_10,.figura:hover #Vector_14{
+fill: #044343;
+}
+
+.figura:hover #Rectangle_1,.figura:hover #Rectangle_2,.figura:hover #Vector_12,.figura:hover #Rectangle_3,.figura:hover #Vector_2,.figura:hover #Vector_3,.figura:hover #Vector_8,.figura:hover #Vector_11,.figura:hover #Vector_7,.figura:hover #Vector_13{
+fill: #045757;
+
+}
+
+
+
+.redes{
+    width: 100vw; 
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.redes a {
+    height: 100%;
+
+}
+.redes a img{
+    height: 50%;
+    border-radius: 10px;
+    padding: 0.25vw;
+    margin: 10px;
+
+}
+.redes img:hover{
+    height: 50%;
+    padding: 0.25vw;
+    margin: 10px;
+background-color: #045757;
+}
+
 
 .nombre{
     display: block;
     width: 35vw;
     height: 35vh;
-    margin-bottom: 10vh;
+    margin-bottom: 25vh;
     margin-left: 2.5vw;
 }
 #P, #R, #O, #G,#R_3 ,#A,#M, #A_3, #D, #O_2, #R_2 {
@@ -98,6 +191,9 @@ body{
     animation-delay: 0.25s;
 
 }
+
+
+
 @keyframes animation {
     50%{
         visibility: visible;
@@ -277,4 +373,286 @@ body{
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.yo_texto{
+    width: 45vw;
+    height: 45vh;
+    background-color: #e4e4e4;
+    border: 3px solid #045757;
+    border-radius: 25px;
+
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 150%;
+
+}
+.yo_texto p{
+    margin: 1vw;
+}
+.titulo_yo{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 200%;
+}
+.bloque_foto{
+    width: 12.5vw;
+    height: 45vh;
+
+    margin-left: 1vw;
+}
+.yo_foto{
+    width: 12.5vw;
+    height: 12.5vw;
+    border-radius: 25px;
+    z-index: 100;
+}
+
+.yo_foto img{
+    border-radius: 25px 25px 25px 25px ;
+    border: #045757 solid 3px;
+    z-index: 100;
+    transform: translateY(50%);
+    position:relative; z-index:1;
+    transition: all .75s ease-in-out;
+
+}
+
+.yo_cv{
+    border-radius:25px 25px 25px 25px  ;
+    width: 12.5vw;
+    height: 11vw;
+    border: #045757 solid 3px;
+    background-color: #dddd;
+    transform: translateY(-50%);
+    position:relative; z-index:0;   
+    display: flex;
+    flex-direction: column;
+    justify-content:  flex-end;
+    align-items: center;
+    transition: all .75s ease-in-out;
+}
+.bloque_foto:hover .yo_foto img{
+    border-radius: 25px 25px 0px 0px ;
+    border: #045757 solid 3px;
+    border-bottom: none;
+    transform: translateY(0%);
+    position:relative; z-index:1;
+}
+.bloque_foto:hover .yo_cv{
+    border-radius:0px 0px 25px 25px  ;
+    border: #045757 solid 3px;
+    border-top: none;
+    transform: translateY(0%);
+    width: 12.5vw;
+    height: 11vw;
+    background-color: #dddd;
+
+    position:relative; z-index:0;
+
+}
+
+.texto_cv{
+    width: 80%;
+    height: 15vh;
+    margin-bottom: 5%;
+    transition: all 0.25s ease;
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+}
+.texto_cv:hover{
+    width: 80%;
+    height: 15vh;
+    background-color: #e4e4e4;
+    border-radius: 15px;
+    margin-bottom: 5%;
+
+}
+
+.boton_cv{
+    width: 60%;
+    height: 3vh;
+    background-color:  #e4e4e4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 5%;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 15px;
+    transition: all 0.25s ease;
+    text-decoration: none;
+
+}
+
+.boton_cv:hover {
+    background-color: #044343;
+    text-decoration: none;
+
+}
+.boton_cv a{
+    color: #222222;
+    text-decoration: none;
+}
+
+.boton_cv:hover a{
+    color: #e4e4e4;
+    background-color: #044343;
+    text-decoration: none;
+}
+.view {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.view .mask,
+.view .content {
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+}
+
+.view-tenth img {
+
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+    -ms-transition: all 0.75s ease-in-out;
+    transition: all 0.75s ease-in-out;
+}
+
+.view-tenth:hover img {
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view-tenth .mask {
+    background-color: #045757;
+    opacity: 75%;
+    border: #e4e4e4 1px solid;
+    border-radius: 20px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view-tenth:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    border: #e4e4e4 1px solid;
+    
+    opacity: 1;
+}
+
+.view-tenth h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    color: #e4e4e4;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view-tenth p {
+    color: #dddddd;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 25px;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.barra {
+    width: 90%;
+    height: 1px;
+    background-color: #dddddd;
+
+}
+
+.view-tenth:hover h2,
+.view-tenth:hover p {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.bloque-tecnologia {
+
+    width: 85%;
+    height: 75vh;
+    margin-top: 50PX;
+    border-radius: 20px;
+    transition: all .5s;
+
+}
+
+
+.bloque-tecnologia-unidad {
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    border-radius: 20px;
+
+
+}
+
+
+.titulo-tecnologia {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+    color: #e4e4e4;
+    font-family: 'Chakra Petch', sans-serif;
+
+
 }

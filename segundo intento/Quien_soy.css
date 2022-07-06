@@ -1,0 +1,17 @@
+.quien_soy{
+    width: 10vh;
+    height: 10vh;
+
+}
+#Sobre{
+    transform: translateY(0);
+
+}
+#Mi{
+    transform: translateY(0);
+}
+
+#Q,#U_nav, #I, #E, #N, #S_nav, #O_nav, #Y{
+    visibility: visible;
+    fill-opacity: 100%;
+}
