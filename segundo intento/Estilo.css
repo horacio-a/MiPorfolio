@@ -48,32 +48,34 @@
     align-items: center;
 }
 
-body{
+body {
     margin: 0px;
     background: #222222;
-    background: linear-gradient(284deg,#222222 80%, #044343 80%);
-    background: -webkit-linear-gradient(284deg,#222222 80%, #044343 80%);
-    background: -moz-linear-gradient(284deg,#222222 80%, #044343 80%);
+    background: linear-gradient(284deg, #222222 80%, #044343 80%);
+    background: -webkit-linear-gradient(284deg, #222222 80%, #044343 80%);
+    background: -moz-linear-gradient(284deg, #222222 80%, #044343 80%);
 }
-.nav{
+
+.nav {
     width: 100%;
     height: 11vh;
-    border-bottom: white 1px solid ;  
-    padding-bottom: 5.205px;
+    border-bottom: white 0.01vh solid;
+
     display: flex;
 }
-.presentacion{
-    height: 88.3vh;
 
-    width: 100vw;
+.presentacion {
+    height: 88.09vh;
+
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    
+
 }
 
 
-.bloque-guias{
+.bloque-guias {
     width: 80vw;
     height: 12vh;
 
@@ -83,7 +85,8 @@ body{
     justify-content: flex-end;
 
 }
-.guias{
+
+.guias {
     margin-left: 5vh;
     margin-right: 5vh;
     font-family: 'Chakra Petch', sans-serif;
@@ -92,11 +95,12 @@ body{
 
 }
 
-.logo{
+.logo {
     width: auto;
     height: 100%;
 }
-.figura{
+
+.figura {
     width: auto;
     height: 85%;
     margin-top: 10px;
@@ -104,77 +108,129 @@ body{
 
 }
 
-.figura:hover #Vector_1,.figura:hover #Vector_4,.figura:hover #Vector_5,.figura:hover #Vector_6,.figura:hover #Vector_9,.figura:hover #Vector_10,.figura:hover #Vector_14{
-fill: #044343;
+.figura:hover #Vector_1,
+.figura:hover #Vector_4,
+.figura:hover #Vector_5,
+.figura:hover #Vector_6,
+.figura:hover #Vector_9,
+.figura:hover #Vector_10,
+.figura:hover #Vector_14 {
+    fill: #044343;
 }
 
-.figura:hover #Rectangle_1,.figura:hover #Rectangle_2,.figura:hover #Vector_12,.figura:hover #Rectangle_3,.figura:hover #Vector_2,.figura:hover #Vector_3,.figura:hover #Vector_8,.figura:hover #Vector_11,.figura:hover #Vector_7,.figura:hover #Vector_13{
-fill: #045757;
+.figura:hover #Rectangle_1,
+.figura:hover #Rectangle_2,
+.figura:hover #Vector_12,
+.figura:hover #Rectangle_3,
+.figura:hover #Vector_2,
+.figura:hover #Vector_3,
+.figura:hover #Vector_8,
+.figura:hover #Vector_11,
+.figura:hover #Vector_7,
+.figura:hover #Vector_13 {
+    fill: #045757;
 
 }
 
 
 
-.redes{
-    width: 100vw; 
+.redes {
+    width: 100vw;
     height: 10vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .redes a {
     height: 100%;
 
 }
-.redes a img{
+
+.redes a img {
     height: 50%;
     border-radius: 10px;
     padding: 0.25vw;
     margin: 10px;
 
 }
-.redes img:hover{
+
+.redes img:hover {
     height: 50%;
     padding: 0.25vw;
     margin: 10px;
-background-color: #045757;
+    background-color: #045757;
 }
 
 
-.nombre{
+.nombre {
     display: block;
     width: 35vw;
     height: 35vh;
     margin-bottom: 25vh;
     margin-left: 2.5vw;
 }
-#P, #R, #O, #G,#R_3 ,#A,#M, #A_3, #D, #O_2, #R_2 {
+
+#P,
+#R,
+#O,
+#G,
+#R_3,
+#A,
+#M,
+#A_3,
+#D,
+#O_2,
+#R_2 {
     visibility: hidden;
     fill-opacity: 0%;
 
-    
+
 }
-#F, #U, #L, #L_2, #S, #T, #A_2, #C, #K{
+
+#F,
+#U,
+#L,
+#L_2,
+#S,
+#T,
+#A_2,
+#C,
+#K {
     visibility: hidden;
     fill-opacity: 0%;
 
 }
-#Albornoz{
-   transform: translateY(-25%);
-   transition: all 0.75s ease-in-out;
+
+#Albornoz {
+    transform: translateY(-25%);
+    transition: all 0.75s ease-in-out;
 }
-.presentacion:hover #Albornoz{
+
+.presentacion:hover #Albornoz {
     transform: translateY(0%);
 }
-#Horacio{
+
+#Horacio {
     transform: translateY(25%);
     transition: all 0.75s ease-in-out;
- }
- .presentacion:hover #Horacio{
-     transform: translateY(0%);
- }
+}
 
-.presentacion:hover #P, .presentacion:hover #R,.presentacion:hover #O, .presentacion:hover #G,.presentacion:hover #R_3 ,.presentacion:hover #A,.presentacion:hover #M, .presentacion:hover #A_3,.presentacion:hover  #D,.presentacion:hover #O_2,.presentacion:hover #R_2 {
+.presentacion:hover #Horacio {
+    transform: translateY(0%);
+}
+
+.presentacion:hover #P,
+.presentacion:hover #R,
+.presentacion:hover #O,
+.presentacion:hover #G,
+.presentacion:hover #R_3,
+.presentacion:hover #A,
+.presentacion:hover #M,
+.presentacion:hover #A_3,
+.presentacion:hover #D,
+.presentacion:hover #O_2,
+.presentacion:hover #R_2 {
 
     stroke: #045757;
     stroke-width: 0.5;
@@ -185,7 +241,16 @@ background-color: #045757;
     animation-delay: 0.25s;
 
 }
-.presentacion:hover #F,.presentacion:hover #U,.presentacion:hover #L,.presentacion:hover #L_2,.presentacion:hover #S,.presentacion:hover #T,.presentacion:hover #A_2,.presentacion:hover #C,.presentacion:hover #K{
+
+.presentacion:hover #F,
+.presentacion:hover #U,
+.presentacion:hover #L,
+.presentacion:hover #L_2,
+.presentacion:hover #S,
+.presentacion:hover #T,
+.presentacion:hover #A_2,
+.presentacion:hover #C,
+.presentacion:hover #K {
 
     stroke: #045757;
     stroke-width: 0.5;
@@ -200,53 +265,75 @@ background-color: #045757;
 
 
 @keyframes animation {
-    50%{
+    50% {
         visibility: visible;
         stroke-dashoffset: 50;
         fill-opacity: 20%;
         stroke-width: 0.5;
     }
-    75%{
+
+    75% {
         visibility: visible;
         stroke-dashoffset: 25;
         fill-opacity: 50%;
         stroke-width: 0.25;
     }
-    100%{
+
+    100% {
         visibility: visible;
         stroke-dashoffset: 0;
         fill-opacity: 100%;
         stroke-width: 0;
     }
-    
+
 }
-.quien_soy{
+
+.quien_soy {
     width: 16vh;
     height: 10vh;
 
 }
-#Sobre{
+
+#Sobre {
     transform: translateY(25%);
     transition: all 0.5s ease-in-out;
 
 }
-#Mi{
+
+#Mi {
     transform: translateY(-25%);
     transition: all 0.5s ease-in-out;
 }
-.quien_soy:hover #Sobre{
+
+.quien_soy:hover #Sobre {
     transform: translateY(0);
 }
-.quien_soy:hover #Mi{
+
+.quien_soy:hover #Mi {
     transform: translateY(0);
 }
-#Q,#U_nav, #I, #E, #N, #S_nav, #O_nav, #Y{
+
+#Q,
+#U_nav,
+#I,
+#E,
+#N,
+#S_nav,
+#O_nav,
+#Y {
     visibility: hidden;
     fill-opacity: 0%;
 }
 
 
-.quien_soy:hover #Q,.quien_soy:hover #U_nav,.quien_soy:hover #I,.quien_soy:hover #E,.quien_soy:hover #N,.quien_soy:hover #S_nav,.quien_soy:hover #O_nav,.quien_soy:hover #Y{
+.quien_soy:hover #Q,
+.quien_soy:hover #U_nav,
+.quien_soy:hover #I,
+.quien_soy:hover #E,
+.quien_soy:hover #N,
+.quien_soy:hover #S_nav,
+.quien_soy:hover #O_nav,
+.quien_soy:hover #Y {
     stroke: #045757;
     stroke-width: 0.5;
     margin-right: 10px;
@@ -254,21 +341,41 @@ background-color: #045757;
     stroke-dashoffset: 100;
     animation: animation 0.5s ease-in forwards;
     animation-delay: 0.25s;
-    }
-    
+}
 
-.habilidades{
+
+.habilidades {
     width: 16vh;
     height: 10vh;
 }
 
 
-#H_habilidad, #T_habilidad, #M_habilidad, #L_habilidad, #coma_habilidad, #C_habilidad, #S_habilidad, #S_2_habilidad, #punto_habilidad, #punto_2_habilidad, #punto_3_habilidad{
+#H_habilidad,
+#T_habilidad,
+#M_habilidad,
+#L_habilidad,
+#coma_habilidad,
+#C_habilidad,
+#S_habilidad,
+#S_2_habilidad,
+#punto_habilidad,
+#punto_2_habilidad,
+#punto_3_habilidad {
     visibility: hidden;
     fill-opacity: 0%;
-} 
+}
 
-.habilidades:hover #H_habilidad, .habilidades:hover #T_habilidad,.habilidades:hover #M_habilidad,.habilidades:hover #L_habilidad,.habilidades:hover #coma_habilidad,.habilidades:hover #C_habilidad,.habilidades:hover #S_habilidad,.habilidades:hover #S_2_habilidad,.habilidades:hover #punto_habilidad,.habilidades:hover #punto_2_habilidad,.habilidades:hover #punto_3_habilidad{
+.habilidades:hover #H_habilidad,
+.habilidades:hover #T_habilidad,
+.habilidades:hover #M_habilidad,
+.habilidades:hover #L_habilidad,
+.habilidades:hover #coma_habilidad,
+.habilidades:hover #C_habilidad,
+.habilidades:hover #S_habilidad,
+.habilidades:hover #S_2_habilidad,
+.habilidades:hover #punto_habilidad,
+.habilidades:hover #punto_2_habilidad,
+.habilidades:hover #punto_3_habilidad {
     stroke: #045757;
     stroke-width: 0.5;
     margin-right: 10px;
@@ -276,55 +383,96 @@ background-color: #045757;
     stroke-dashoffset: 100;
     animation: animation 0.5s ease-in forwards;
     animation-delay: 0.25s;
-} 
-#Habilidades{
+}
+
+#Habilidades {
     transform: translateY(-14%);
     transition: all 0.25s ease-in-out;
 
 }
-#Mis{
+
+#Mis {
     transform: translateY(14%);
     transition: all 0.25s ease-in-out;
 }
-.habilidades:hover #Habilidades{
+
+.habilidades:hover #Habilidades {
     transform: translateY(0);
     transition: all 0.25s ease-in-out;
 
 }
-.habilidades:hover #Mis{
+
+.habilidades:hover #Mis {
     transform: translateY(0);
     transition: all 0.25s ease-in-out;
 }
 
-.proyecto{
+.proyecto {
     width: 16vh;
     height: 10vh;
 }
 
-#Mis_proyec{
+#Mis_proyec {
     transform: translateY(25%);
     transition: all 0.5s ease-in-out;
 }
-#Proyectos_proyec{
+
+#Proyectos_proyec {
     transform: translateY(-25%);
     transition: all 0.5s ease-in-out;
 }
-.proyecto:hover #Mis_proyec{
+
+.proyecto:hover #Mis_proyec {
     transform: translateY(0%);
     transition: all 0.5s ease-in-out;
 }
-.proyecto:hover #Proyectos_proyec{
+
+.proyecto:hover #Proyectos_proyec {
     transform: translateY(0%);
     transition: all 0.5s ease-in-out;
 }
 
 
-#D_proyec, #I_proyec, #S_proyec, #E_proyec, #Ñ_proyec, #O_proyec, #S_2_proyec, #Y_proyec, #R_proyec, #E_3_proyec, #guion_proyec, #D_2_proyec, #I_2_proyec, #S_3_proyec, #E_2_proyec, #Ñ_2_proyec, #O_2_proyec, #S_4_proyec{
+#D_proyec,
+#I_proyec,
+#S_proyec,
+#E_proyec,
+#Ñ_proyec,
+#O_proyec,
+#S_2_proyec,
+#Y_proyec,
+#R_proyec,
+#E_3_proyec,
+#guion_proyec,
+#D_2_proyec,
+#I_2_proyec,
+#S_3_proyec,
+#E_2_proyec,
+#Ñ_2_proyec,
+#O_2_proyec,
+#S_4_proyec {
     visibility: hidden;
     fill-opacity: 0%;
 }
 
-.proyecto:hover #D_proyec,.proyecto:hover #I_proyec,.proyecto:hover #S_proyec,.proyecto:hover #E_proyec,.proyecto:hover #Ñ_proyec,.proyecto:hover #O_proyec,.proyecto:hover #S_2_proyec,.proyecto:hover #Y_proyec,.proyecto:hover #R_proyec,.proyecto:hover #E_3_proyec,.proyecto:hover #guion_proyec,.proyecto:hover #D_2_proyec,.proyecto:hover #I_2_proyec,.proyecto:hover #S_3_proyec,.proyecto:hover #E_2_proyec,.proyecto:hover #Ñ_2_proyec,.proyecto:hover #O_2_proyec,.proyecto:hover #S_4_proyec{
+.proyecto:hover #D_proyec,
+.proyecto:hover #I_proyec,
+.proyecto:hover #S_proyec,
+.proyecto:hover #E_proyec,
+.proyecto:hover #Ñ_proyec,
+.proyecto:hover #O_proyec,
+.proyecto:hover #S_2_proyec,
+.proyecto:hover #Y_proyec,
+.proyecto:hover #R_proyec,
+.proyecto:hover #E_3_proyec,
+.proyecto:hover #guion_proyec,
+.proyecto:hover #D_2_proyec,
+.proyecto:hover #I_2_proyec,
+.proyecto:hover #S_3_proyec,
+.proyecto:hover #E_2_proyec,
+.proyecto:hover #Ñ_2_proyec,
+.proyecto:hover #O_2_proyec,
+.proyecto:hover #S_4_proyec {
     stroke: #045757;
     stroke-width: 0.5;
     margin-right: 10px;
@@ -334,36 +482,65 @@ background-color: #045757;
     animation-delay: 0.25s;
 }
 
-.contac{
+.contac {
     width: 16vh;
     height: 10vh;
 }
 
-#H_contac, #A_contac, #B_contac, #L_contac, #A_2_contac, #M_contac, #E_contac, #S_contac , #O_contac, #Y_contac, #P_contac, #I_contac, #O_2_contac, #L_2_contac, #A_3_contac{
+#H_contac,
+#A_contac,
+#B_contac,
+#L_contac,
+#A_2_contac,
+#M_contac,
+#E_contac,
+#S_contac,
+#O_contac,
+#Y_contac,
+#P_contac,
+#I_contac,
+#O_2_contac,
+#L_2_contac,
+#A_3_contac {
     visibility: hidden;
     fill-opacity: 0%;
 }
 
-#Contactame{
+#Contactame {
     transform: translateY(24%);
     transition: all 0.5s ease-in-out;
 }
 
-#Aqui{
+#Aqui {
     transform: translateY(-24%);
     transition: all 0.5s ease-in-out;
 }
-.contac:hover #Contactame{
+
+.contac:hover #Contactame {
     transform: translateY(0);
     transition: all 0.5s ease-in-out;
 }
 
-.contac:hover #Aqui{
+.contac:hover #Aqui {
     transform: translateY(0);
     transition: all 0.5s ease-in-out;
 }
 
-.contac:hover #H_contac,.contac:hover #A_contac,.contac:hover #B_contac,.contac:hover #L_contac,.contac:hover #A_2_contac,.contac:hover #M_contac,.contac:hover #E_contac,.contac:hover #S_contac ,.contac:hover #O_contac,.contac:hover #Y_contac,.contac:hover #P_contac,.contac:hover #I_contac,.contac:hover #O_2_contac,.contac:hover #L_2_contac,.contac:hover #A_3_contac{
+.contac:hover #H_contac,
+.contac:hover #A_contac,
+.contac:hover #B_contac,
+.contac:hover #L_contac,
+.contac:hover #A_2_contac,
+.contac:hover #M_contac,
+.contac:hover #E_contac,
+.contac:hover #S_contac,
+.contac:hover #O_contac,
+.contac:hover #Y_contac,
+.contac:hover #P_contac,
+.contac:hover #I_contac,
+.contac:hover #O_2_contac,
+.contac:hover #L_2_contac,
+.contac:hover #A_3_contac {
     stroke: #045757;
     stroke-width: 0.5;
     margin-right: 10px;
@@ -373,7 +550,7 @@ background-color: #045757;
     animation-delay: 0.25s;
 }
 
-.yo{
+.yo {
     height: 88.3vh;
 
     width: 100vw;
@@ -381,111 +558,122 @@ background-color: #045757;
     align-items: center;
     justify-content: center;
 }
-.yo_texto{
+
+.yo_texto {
     width: 45%;
-    height: 50vh;
+    height: fit-content;
     background-color: #e4e4e4;
     border: 3px solid #045757;
     border-radius: 25px;
-    word-break:break-all;
+    word-break: break-all;
 
     font-family: 'Chakra Petch', sans-serif;
     font-size: 2.3vh;
 
 }
-texto p{
-    margin: 1vw;
+
+.yo_texto p {
+    margin: 0.5vw;
 }
-.titulo_yo{
+
+.titulo_yo {
     text-align: center;
-    margin-bottom: 15px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-size: 200%;
 }
-.bloque_foto{
+
+.bloque_foto {
 
     height: 25vh;
     width: 25vh;
     margin-left: 1vw;
 }
 
-.yo_foto{
+.yo_foto {
     width: 100%;
     height: 100%;
     border-radius: 25px;
-    z-index: 100;   
+    z-index: 100;
 }
 
-.yo_foto img{
+.yo_foto img {
     width: auto;
     height: 100%;
-    border-radius: 25px 25px 25px 25px ;
+    border-radius: 25px 25px 25px 25px;
     z-index: 100;
-    position:relative; z-index:1;
+    position: relative;
+    z-index: 1;
     transition: all .75s ease-in-out;
 
 }
 
-.yo_cv{
-    border-radius:25px 25px 25px 25px  ;
+.yo_cv {
+    border-radius: 25px 25px 25px 25px;
     width: 100%;
     height: 100%;
     background-color: #dddd;
     transform: translateY(-100%);
-    position:relative; z-index:0;   
+    position: relative;
+    z-index: 0;
     display: flex;
     flex-direction: column;
-    justify-content:  flex-end;
+    justify-content: flex-end;
     align-items: center;
     transition: all .75s ease-in-out;
 }
-.bloque_foto:hover .yo_foto img{
-    border-radius: 25px 25px 0px 0px ;
+
+.bloque_foto:hover .yo_foto img {
+    border-radius: 25px 25px 0px 0px;
     border: #045757 solid 3px;
     border-bottom: none;
     transform: translateY(-50%);
-    position:relative; z-index:1;
+    position: relative;
+    z-index: 1;
 }
 
-.bloque_foto:hover .yo_cv{
-    border-radius:0px 0px 25px 25px  ;
+.bloque_foto:hover .yo_cv {
+    border-radius: 0px 0px 25px 25px;
     border: #045757 solid 3px;
     border-top: none;
     transform: translateY(-50%);
 
     background-color: #dddd;
 
-    position:relative; z-index:0;
+    position: relative;
+    z-index: 0;
 
 }
 
-.texto_cv{
+.texto_cv {
     width: 80%;
-    height: 15vh;
-    margin-bottom: 5%;
+    height: fit-content;
+    margin-bottom: 6%;
     transition: all 0.25s ease;
     font-family: 'Chakra Petch', sans-serif;
     text-align: center;
 }
-.texto_cv:hover{
+
+.texto_cv:hover {
     width: 80%;
-    height: 15vh;
+    height: fit-content;
     background-color: #e4e4e4;
     border-radius: 15px;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
 
 }
 
-.boton_cv{
+.boton_cv {
     width: 60%;
     height: 3vh;
-    background-color:  #e4e4e4;
+    background-color: #e4e4e4;
     border-radius: 5px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     margin-bottom: 5%;
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 15px;
+    font-size: 1.7vh;
     transition: all 0.25s ease;
     text-decoration: none;
 
@@ -496,16 +684,18 @@ texto p{
     text-decoration: none;
 
 }
-.boton_cv a{
+
+.boton_cv a {
     color: #222222;
     text-decoration: none;
 }
 
-.boton_cv:hover a{
+.boton_cv:hover a {
     color: #e4e4e4;
     background-color: #044343;
     text-decoration: none;
 }
+
 .view {
     width: 100%;
     height: 100%;
@@ -570,7 +760,7 @@ texto p{
     -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     border: #e4e4e4 1px solid;
-    
+
     opacity: 1;
 }
 
