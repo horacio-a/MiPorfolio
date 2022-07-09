@@ -57,12 +57,14 @@ body{
 }
 .nav{
     width: 100%;
-    height: 12vh;
-    border-bottom: white 1px solid;  
+    height: 11vh;
+    border-bottom: white 1px solid ;  
+    padding-bottom: 5.205px;
     display: flex;
 }
 .presentacion{
-    height: 87.8vh;
+    height: 88.3vh;
+
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -219,8 +221,8 @@ background-color: #045757;
     
 }
 .quien_soy{
-    width: auto;
-    height: 85%;
+    width: 16vh;
+    height: 10vh;
 
 }
 #Sobre{
@@ -372,7 +374,8 @@ background-color: #045757;
 }
 
 .yo{
-    height: 87.8vh;
+    height: 88.3vh;
+
     width: 100vw;
     display: flex;
     align-items: center;
@@ -380,24 +383,17 @@ background-color: #045757;
 }
 .yo_texto{
     width: 45%;
-    height: 45%;
+    height: 50vh;
     background-color: #e4e4e4;
     border: 3px solid #045757;
     border-radius: 25px;
     word-break:break-all;
 
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 150%;
+    font-size: 2.3vh;
 
 }
-@media screen and ( max-width: 1500px) {
-    .yo_texto{
-        font-size: 120%;
-        width: 45%;
-        height: 55%;
-    }
-}
-.yo_texto p{
+texto p{
     margin: 1vw;
 }
 .titulo_yo{
@@ -406,23 +402,24 @@ background-color: #045757;
     font-size: 200%;
 }
 .bloque_foto{
-    width: 12.5vw;
-    height: 55%;
 
+    height: 25vh;
+    width: 25vh;
     margin-left: 1vw;
 }
+
 .yo_foto{
-    width: 12.5vw;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     border-radius: 25px;
-    z-index: 100;
+    z-index: 100;   
 }
 
 .yo_foto img{
+    width: auto;
+    height: 100%;
     border-radius: 25px 25px 25px 25px ;
-    border: #045757 solid 3px;
     z-index: 100;
-    transform: translateY(50%);
     position:relative; z-index:1;
     transition: all .75s ease-in-out;
 
@@ -430,11 +427,10 @@ background-color: #045757;
 
 .yo_cv{
     border-radius:25px 25px 25px 25px  ;
-    width: 12.5vw;
-    height: 50%;
-    border: #045757 solid 3px;
+    width: 100%;
+    height: 100%;
     background-color: #dddd;
-    transform: translateY(-50%);
+    transform: translateY(-100%);
     position:relative; z-index:0;   
     display: flex;
     flex-direction: column;
@@ -446,16 +442,16 @@ background-color: #045757;
     border-radius: 25px 25px 0px 0px ;
     border: #045757 solid 3px;
     border-bottom: none;
-    transform: translateY(0%);
+    transform: translateY(-50%);
     position:relative; z-index:1;
 }
+
 .bloque_foto:hover .yo_cv{
     border-radius:0px 0px 25px 25px  ;
     border: #045757 solid 3px;
     border-top: none;
-    transform: translateY(0%);
-    width: 12.5vw;
-    height: 11vw;
+    transform: translateY(-50%);
+
     background-color: #dddd;
 
     position:relative; z-index:0;

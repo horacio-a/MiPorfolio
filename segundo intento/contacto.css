@@ -16,3 +16,7 @@
 #Aqui{
     transform: translateY(0);
 }
+
+.contac:hover #H_contac,.contac:hover #A_contac,.contac:hover #B_contac,.contac:hover #L_contac,.contac:hover #A_2_contac,.contac:hover #M_contac,.contac:hover #E_contac,.contac:hover #S_contac ,.contac:hover #O_contac,.contac:hover #Y_contac,.contac:hover #P_contac,.contac:hover #I_contac,.contac:hover #O_2_contac,.contac:hover #L_2_contac,.contac:hover #A_3_contac{
+animation: none;
+}

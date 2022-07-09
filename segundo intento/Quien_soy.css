@@ -1,5 +1,5 @@
 .quien_soy{
-    width: 10vh;
+    width: 16vh;
     height: 10vh;
 
 }
@@ -15,3 +15,7 @@
     visibility: visible;
     fill-opacity: 100%;
 }
+.quien_soy:hover #Q,.quien_soy:hover #U_nav,.quien_soy:hover #I,.quien_soy:hover #E,.quien_soy:hover #N,.quien_soy:hover #S_nav,.quien_soy:hover #O_nav,.quien_soy:hover #Y{
+    animation: none;
+    }
+    

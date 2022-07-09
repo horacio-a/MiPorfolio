@@ -20,4 +20,7 @@
     fill-opacity: 100%;
 }
 
+.proyecto:hover #D_proyec,.proyecto:hover #I_proyec,.proyecto:hover #S_proyec,.proyecto:hover #E_proyec,.proyecto:hover #Ñ_proyec,.proyecto:hover #O_proyec,.proyecto:hover #S_2_proyec,.proyecto:hover #Y_proyec,.proyecto:hover #R_proyec,.proyecto:hover #E_3_proyec,.proyecto:hover #guion_proyec,.proyecto:hover #D_2_proyec,.proyecto:hover #I_2_proyec,.proyecto:hover #S_3_proyec,.proyecto:hover #E_2_proyec,.proyecto:hover #Ñ_2_proyec,.proyecto:hover #O_2_proyec,.proyecto:hover #S_4_proyec{
+animation: none;
+}
 

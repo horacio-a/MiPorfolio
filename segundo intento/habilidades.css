@@ -19,3 +19,6 @@
     transform: translateY(0);
 
 }
+.habilidades:hover #H_habilidad, .habilidades:hover #T_habilidad,.habilidades:hover #M_habilidad,.habilidades:hover #L_habilidad,.habilidades:hover #coma_habilidad,.habilidades:hover #C_habilidad,.habilidades:hover #S_habilidad,.habilidades:hover #S_2_habilidad,.habilidades:hover #punto_habilidad,.habilidades:hover #punto_2_habilidad,.habilidades:hover #punto_3_habilidad{
+animation: none;
+} 
