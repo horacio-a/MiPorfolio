@@ -242,6 +242,9 @@ body {
 
 }
 
+
+
+
 .presentacion:hover #F,
 .presentacion:hover #U,
 .presentacion:hover #L,
@@ -258,7 +261,7 @@ body {
     stroke-dasharray: 100;
     stroke-dashoffset: 100;
     animation: animation 1.5s ease-in forwards;
-    animation-delay: 0.25s;
+
 
 }
 
@@ -569,7 +572,28 @@ body {
 
     font-family: 'Chakra Petch', sans-serif;
     font-size: 2.3vh;
+    transition: all .75s ease-in-out;
+}
+.yo_texto:hover{
+    animation: cambiodefont 1.5s ease-in forwards;
 
+}
+
+@keyframes cambiodefont {
+    20%{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    35% {
+       font-family: 'Chakra Petch', sans-serif;
+    }
+
+    45% {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    55% {
+        font-family: 'Chakra Petch', sans-serif;
+    }
 }
 
 .yo_texto p {
