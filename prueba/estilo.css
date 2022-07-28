@@ -3,12 +3,6 @@
     src: url(Cinzel-Regular.otf);
 }
 
-.red{
-    color :#85bb65 ;
-}
-.text-right{
-text-align: right;}
-
 
 body {
     margin: 0;
@@ -20,17 +14,15 @@ body {
     height: 100%;
     position: absolute;
 }
-a{
-    text-decoration: none;
-}
 
 /* -----------------------------------  inicio header -------------------------------------------- */
 
 
 header {
     width: 100%;
-    height: 15%;
+    height: 10%;
     display: flex;
+
 }
 
 .conteiner-idioma {
@@ -38,31 +30,13 @@ header {
     width: 7.5%;
     height: 100%;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-        flex-direction: column;
-}
-
-.texto-idioma{
-    color: #85bb65;
-    font-family: Cinzel;
-    font-size: 2rem;
+    align-items: center;
 }
 
 .conteiner-idioma .conteiner-selectidioma {
-    background-color: #EEEBDD;
-    border-radius: 5px;
+    background-color: antiquewhite;
     width: 50%;
-    height: 25%;
-    margin: 1%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-.conteiner-idioma .conteiner-selectidioma:hover {
-    background-color: rgb(181, 170, 170) ;
+    height: 50%;
 }
 
 .conteiner-quiensoy {
@@ -88,48 +62,8 @@ header {
 .conteiner-logo {
     width: 25%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
 }
-.box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 18.5%;
-    top: 20px;
-}
-
-.box .eye {
-
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    display: block;
-    margin: 0 20px;
-    border-radius: 50%;
-
-}
-
-.box .eye::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    background-color: #EEEBDD;
-    transform: translate(50%, -50%);
-
-    box-sizing: border-box;
-
-}
-.ojosigue{
-    position: absolute;
-}
-
 
 .conteiner-habilidades {
     width: 12.5%;
@@ -157,16 +91,15 @@ header {
     align-items: center;
     justify-content: flex-end;
 }
-
 .conteiner-modo .conteiner-selectmodo {
-    background-color: #EEEBDD;
+    background-color: antiquewhite;
     width: 50%;
     height: 50%;
 }
 
 header p {
     margin: 0ch;
-    color: #EEEBDD;
+    color: white;
     font-size: 30px;
     font-family: Cinzel;
 }
@@ -182,7 +115,7 @@ header .conteiner-habilidades p {
 
 main {
     width: 100%;
-    height: 80%;
+    height: 90%;
     display: flex;
 }
 
@@ -199,18 +132,18 @@ main {
 
 .conteiner-nombre p {
     margin: 0ch;
-    color: #EEEBDD;
+    color: white;
     font-size: 96px;
     font-family: Cinzel;
 }
 
 .conteiner-nombre .caption {
-    color: #85bb65 ;
+    color: red;
     font-size: 50px;
     font-family: Cinzel;
 }
 
-#conteiner-logogrande {
+.conteiner-logogrande {
     width: 50%;
     height: 100%;
     display: flex;
@@ -218,50 +151,53 @@ main {
     justify-content: center;
 }
 
-.conteiner-imagen {
+.conteiner-porahora {
     width: 50vh;
     height: 50vh;
-}
-.imagen-off{
-    position: absolute;
+    background-color: black;
 }
 
-.conteiner-imagen:hover .imagen-off{
-visibility: hidden;
-}
-/* -----------------------------------  fin main -------------------------------------------- */
 
-/* -----------------------------------  inicio footer -------------------------------------------- */
-footer{
-    width: 100%;
-    height: 5%;
-    display: flex;
-   justify-content: flex-end;
+*{
+    margin: 0;
+    padding: 0;
 }
-.conteiner-info{
-    width: 10%;
-    height: 100%;
-    background-color: #EEEBDD;
-    border-radius: 10px;
-    display: flex;
-    
-}
-.conteiner-info a{
-    width: 100%;
-    height: 100%;
-    display: flex;
 
+body{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
- 
+    min-height: 100vh;
+    background-color: bisque;
 }
-.conteiner-info img{ 
-width: auto;
-height: 75%;
-}
-.conteiner-info img:hover{ 
-background-color: gray;
-    }
 
 
-/* -----------------------------------  fin footer -------------------------------------------- */
+.box{
+    display: flex;
+    width: 25%;
+    height: 10%;
+}
+
+.box .eye{
+position: relative;
+width: 120px;
+height: 120px;
+display: block;
+background: #ffff;
+margin: 0 20px;
+border-radius: 50%;
+}
+
+.box .eye::before{
+content: '';
+position: absolute;
+top: 50%;
+width: 45px;
+height: 45px;
+border-radius: 50%;
+background-color: #1B1717;
+transform: translate(50%, -50%);
+border: 10px solid #219265;
+box-sizing: border-box;
+
+}
