@@ -46,7 +46,7 @@ header {
 .texto-idioma{
     color: #85bb65;
     font-family: Cinzel;
-    font-size: 150%;
+    font-size: 2rem;
 }
 
 .conteiner-idioma .conteiner-selectidioma {
@@ -117,8 +117,8 @@ header {
     content: '';
     position: absolute;
     top: 50%;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     background-color: #EEEBDD;
     transform: translate(50%, -50%);
@@ -128,13 +128,8 @@ header {
 }
 .ojosigue{
     position: absolute;
-    width: 12%;
-    height: auto;
 }
-.ojohover{
-    width: 40%;
-    height: auto;
-}
+
 
 .conteiner-habilidades {
     width: 12.5%;
@@ -229,14 +224,8 @@ main {
 }
 .imagen-off{
     position: absolute;
-    width: 25%;
-    height: auto;
 }
-.imagen-on{
-    position: absolute;
-    width: 25%;
-    height: auto;
-}
+
 .conteiner-imagen:hover .imagen-off{
 visibility: hidden;
 }
