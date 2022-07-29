@@ -103,3 +103,27 @@ ConteinerContacto.addEventListener("mouseout", function (event) {
     ConteinerHabilidades.style.opacity = '100%'
 }, false);
 
+var BloqueIngles = document.getElementById('Ingles')
+var BloqueEspañol = document.getElementById('Español')
+
+
+BloqueEspañol.addEventListener("mouseover", function (event) {
+    BloqueIngles.style.opacity = '25%'
+
+}, false);
+
+BloqueEspañol.addEventListener("mouseout", function (event) {
+    BloqueIngles.style.opacity = '100%'
+
+}, false);
+
+
+BloqueIngles.addEventListener("mouseover", function (event) {
+    BloqueEspañol.style.opacity = '25%'
+
+}, false);
+
+BloqueIngles.addEventListener("mouseout", function (event) {
+    BloqueEspañol.style.opacity = '100%'
+
+}, false);

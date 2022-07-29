@@ -3,11 +3,13 @@
     src: url(Cinzel-Regular.otf);
 }
 
-.red{
-    color :#85bb65 ;
+.red {
+    color: #85bb65;
 }
-.text-right{
-text-align: right;}
+
+.text-right {
+    text-align: right;
+}
 
 
 body {
@@ -20,7 +22,8 @@ body {
     height: 100%;
     position: absolute;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -40,13 +43,13 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-        flex-direction: column;
+    flex-direction: column;
 }
 
-.texto-idioma{
+.texto-idioma {
     color: #85bb65;
     font-family: Cinzel;
-    font-size: 2rem;
+    font-size: 1.5vw;
 }
 
 .conteiner-idioma .conteiner-selectidioma {
@@ -58,12 +61,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
-.conteiner-idioma .conteiner-selectidioma:hover {
-    background-color: rgb(181, 170, 170) ;
-}
+
 
 .conteiner-quiensoy {
     width: 12.5%;
@@ -72,7 +71,6 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
 }
 
 .conteiner-proyectos {
@@ -82,7 +80,6 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
 }
 
 .conteiner-logo {
@@ -91,43 +88,48 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    right: 18.5%;
-    top: 20px;
+
+    top: 1.25vw;
 }
 
 .box .eye {
-
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 4vw;
+    height: 4vw;
     display: block;
     margin: 0 20px;
     border-radius: 50%;
-
 }
 
 .box .eye::before {
     content: '';
     position: absolute;
     top: 50%;
-    width: 25px;
-    height: 25px;
+    width: 35%;
+    height: 35%;
     border-radius: 50%;
     background-color: #EEEBDD;
     transform: translate(50%, -50%);
-
     box-sizing: border-box;
-
 }
-.ojosigue{
+
+.ojosigue {
     position: absolute;
+    width: 10%;
+    height: auto;
+}
+
+.ojohover {
+    position: absolute;
+    width: 10%;
+    height: auto;
 }
 
 
@@ -167,7 +169,7 @@ header {
 header p {
     margin: 0ch;
     color: #EEEBDD;
-    font-size: 30px;
+    font-size: 1.75vw;
     font-family: Cinzel;
 }
 
@@ -200,13 +202,13 @@ main {
 .conteiner-nombre p {
     margin: 0ch;
     color: #EEEBDD;
-    font-size: 96px;
+    font-size: 6vw;
     font-family: Cinzel;
 }
 
 .conteiner-nombre .caption {
-    color: #85bb65 ;
-    font-size: 50px;
+    color: #85bb65;
+    font-size: 2vw;
     font-family: Cinzel;
 }
 
@@ -222,46 +224,263 @@ main {
     width: 50vh;
     height: 50vh;
 }
-.imagen-off{
+
+.imagen-off {
     position: absolute;
+    width: 22vw;
+    height:22vw;
 }
 
-.conteiner-imagen:hover .imagen-off{
-visibility: hidden;
+.imagen-on {
+    position: absolute;
+    width: 22vw;
+    height: 22vw;
+    
 }
+
+#conteiner-logogrande:hover .imagen-off {
+    visibility: hidden;
+}
+
 /* -----------------------------------  fin main -------------------------------------------- */
 
 /* -----------------------------------  inicio footer -------------------------------------------- */
-footer{
+footer {
     width: 100%;
     height: 5%;
     display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
 }
-.conteiner-info{
+
+.conteiner-info {
     width: 10%;
     height: 100%;
     background-color: #EEEBDD;
     border-radius: 10px;
     display: flex;
-    
+
 }
-.conteiner-info a{
+
+.conteiner-info a {
     width: 100%;
     height: 100%;
     display: flex;
 
     align-items: center;
     justify-content: space-evenly;
- 
+
 }
-.conteiner-info img{ 
-width: auto;
-height: 75%;
+
+.conteiner-info img {
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
 }
-.conteiner-info img:hover{ 
-background-color: gray;
-    }
+
+.conteiner-info img:hover {
+    background-color: gray;
+}
 
 
 /* -----------------------------------  fin footer -------------------------------------------- */
+
+
+
+/* -----------------------------------  inicio main-quiensoy -------------------------------------------- */
+
+.conteiner-presentacion{
+    width: 50%;
+    height: 22vw;
+    background-color: #EEEBDD;
+    border-radius: 1vw;
+    margin-right: 1.25vw;
+}
+
+
+.centrar{
+    display: flex;
+    align-items: center;
+}
+
+.titulo-presentacion{
+    font-size: 3vw;
+    color: #85bb65  ;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.75vw;
+}
+
+.text-presentacion{
+    font-size: 1.55vw;
+    text-align: center;
+    margin: 0.5vw;
+
+}
+
+/* -----------------------------------  fin main-quiensoy -------------------------------------------- */
+
+/* -----------------------------------  inicio main-proyectos -------------------------------------------- */
+.conteiner-misproyectos{
+    width: 75vw;
+    height: 35vw;
+    background-color: #EEEBDD;
+    border-radius: 1vw;
+
+}
+.center-flex-j {
+    display: flex;
+    justify-content: center;
+}
+.space-around-flex-j {
+    display: flex;
+    justify-content: space-around;
+}
+
+.center-flex-ai {
+    display: flex;
+    align-items: center;
+}
+.bloque-tecnologia {
+
+    width: 85%;
+    height: 750px;
+    margin-top: 50PX;
+    border-radius: 20px;
+    transition: all .5s;
+
+}
+.margen-tb-25 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.bloque-tecnologia-unidad {
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    border-radius: 20px;
+
+}
+
+.view {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+
+
+}
+
+.view .mask,
+.view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+}
+
+.view-tenth img {
+
+    -webkit-transition: all 0.75s ease-in-out;
+    -moz-transition: all 0.75s ease-in-out;
+    -o-transition: all 0.75s ease-in-out;
+    -ms-transition: all 0.75s ease-in-out;
+    transition: all 0.75s ease-in-out;
+}
+
+.view-tenth:hover img {
+    -webkit-transform: scale(10);
+    -moz-transform: scale(10);
+    -o-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view-tenth .mask {
+    background-color: #045757;
+    border: #e4e4e4 1px solid;
+    border-radius: 20px;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view-tenth:hover .mask {
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.view-tenth h2 {
+
+    font-size: 20px;
+    margin-top: 15px;
+    background: transparent;
+    text-align: center;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    color: #e4e4e4;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.view-tenth p {
+    color: #dddddd;
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.barra {
+    width: 90%;
+    height: 1px;
+    background-color: #dddddd;
+
+}
+
+.view-tenth:hover h2,
+.view-tenth:hover p {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+/* -----------------------------------  fin main-proyectos -------------------------------------------- */
