@@ -127,3 +127,30 @@ BloqueIngles.addEventListener("mouseout", function (event) {
     BloqueEspañol.style.opacity = '100%'
 
 }, false);
+
+
+var boton1 = document.getElementById('boton-proyecto1')
+var boton2 = document.getElementById('boton-proyecto2')
+
+boton1.addEventListener("mouseover", function (event) {
+    boton1.style.visibility = 'hidden'
+    boton1.style.visibility = 'hidden'
+
+
+}, false);
+
+function desaparecer(){
+    boton1.style.visibility = 'hidden'
+    boton1.style.visibility = 'hidden'
+}
+
+
+var boton3 = document.getElementById('test')
+
+
+boton3.addEventListener("mouseover", function (event) {
+    boton1.style.visibility = 'hidden'
+    boton2.style.visibility = 'hidden'
+
+
+}, false);
