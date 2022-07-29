@@ -162,10 +162,20 @@ header {
 }
 
 .conteiner-modo .conteiner-selectmodo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #EEEBDD;
+    border-radius: 1vw;
     width: 50%;
     height: 50%;
 }
+.conteiner-modo .conteiner-selectmodo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 header p {
     margin: 0ch;
@@ -530,15 +540,17 @@ footer {
 .titulo-contacto{
     font-size: 2.3vw;
     margin: 1vw;
-    
+    text-align: center;
 }
 .conteiner-formulario{
     height:  75vh;
     width: 30vw;
-    background-color: green;
-}
+    background-color: #EEEBDD;
+    color: #1B1717;
+    border-radius: 1vw;}
 .texto-contacto p{
 font-size: 1.2vw;
+text-align: start;
 }
 
 .conteiner-ojocontac{
@@ -548,13 +560,7 @@ font-size: 1.2vw;
 
 
 
-h1 {
-    font-family: 'Poppins', sans-serif, 'arial';
-    font-weight: 600;
-    font-size: 72px;
-    color: white;
-    text-align: center;
-}
+
 
 h4 {
     font-family: 'Roboto', sans-serif, 'arial';
