@@ -50,7 +50,7 @@ header {
 .texto-idioma {
     color: #85bb65;
     font-family: Cinzel;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
 }
 
 .conteiner-idioma .conteiner-selectidioma {
@@ -170,7 +170,7 @@ header {
 header p {
     margin: 0ch;
     color: #EEEBDD;
-    font-size: 1.75vw;
+    font-size: 1.55vw;
     font-family: Cinzel;
 }
 
@@ -224,6 +224,9 @@ main {
 .conteiner-imagen {
     width: 50vh;
     height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagen-off {
@@ -360,7 +363,7 @@ footer {
 .titulo-tecnologia{
     color: #85bb65;
     font-family: Cinzel;
-    margin-bottom: 0.5vw;
+    margin-bottom: 1vw;
 
     font-size: 3vw;
     text-align: center;
