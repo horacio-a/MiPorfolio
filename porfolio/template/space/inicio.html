@@ -1,0 +1,101 @@
+{% extends 'space/base.html' %}
+
+
+{% load static %}
+
+
+{% block content %}
+<div class="main-inicio">
+    <div class="main-nombre">
+        <p>Horacio</p>
+        <p>Albornoz</p>
+        <div class="epilogo">desarrollador full stack</div>
+    </div>
+    <div class="main-menu">
+        <div class="wrapper-row">
+            <div class="icon fabebook">
+                <span class="tooltip">Change to English</span>
+                <span>
+                    <a class="menu-item" href="/space/en">
+                        <img src='{% static "imagenes/space/idioma.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Quien soy</span>
+                <span>
+                    <a class="menu-item" href="/space/quiensoy">
+                        <img src='{% static "imagenes/space/aboutme.png" %}' alt="">
+
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Mis proyectos</span>
+                <span>
+                    <a class="menu-item" href="/space/proyectos">
+                        <img src='{% static "imagenes/space/proyectos.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Inicio</span>
+                <span>
+                    <a class="menu-item" href="/space">
+                        <img src='{% static "imagenes/space/inicio.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Mis Habilidades</span>
+                <span>
+                    <a class="menu-item" href="/space/habilidades">
+                        <img src='{% static "imagenes/space/habilidades.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Contactame</span>
+                <span>
+                    <a class="menu-item" href="/space/contacto">
+                        <img src='{% static "imagenes/space/Contacto.png" %}' alt="">
+            
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Cambia el estilo</span>
+                <span>
+                    <a class="menu-item" href="/estilos">
+                        <img src='{% static "imagenes/space/circulo-de-color.png" %}' alt="">
+            
+                    </a>
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+<div class="footer">
+    <div class="wrapper">
+        <div class="icon linkedin">
+            <span class="tooltip">Linkedin</span>
+            <span><img src='{% static "imagenes/space/linkedin.png" %}' alt="" width="100%"></span>
+        </div>
+        <div class="icon fabebook">
+            <span class="tooltip">curriculum vitae</span>
+            <span><img src='{% static "imagenes/space/cv.png" %}' alt="" width="85%"></span>
+        </div>
+        <div class="icon fabebook">
+            <span class="tooltip">github</span>
+            <span> <img src='{% static "imagenes/space/github.png" %}' alt="" width="100%"></span>
+        </div>
+
+    </div>
+
+
+</div>
+{% endblock %}

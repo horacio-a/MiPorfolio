@@ -1,0 +1,340 @@
+{% extends 'eyes/base.html' %}
+
+
+{% load static %}
+
+{% block title %}
+Mis proyectos
+{% endblock %}
+
+
+
+{% block content %}
+<main style="justify-content: center; align-items: center; height: 85%;" class="main-proyecto-pc">
+    <div class="conteiner-misproyectos">
+        <div class="center-flex-j">
+            <div class="bloque-tecnologia pointer">
+                <div class="titulo-tecnologia">
+                    Mis Proyectos
+                </div>
+                <div class="space-around-flex-j">
+                    <div class="bloque-tecnologia-unidad">
+                        <div class="view view-tenth center-flex-j center-flex-ai">
+                            <img src='{% static "imagenes/eyes/icon S.png" %}' width="100%" />
+                            <div class="mask">
+                                <div class="titulo-mask">
+                                    CriptoWord
+                                </div>
+                                <div class="conjunto-botones">
+                                    <button type="button" class="boton-proyectos pointer" id="boton-CriptoWord1"
+                                        onclick="tecnologiasCriptoWord()">
+                                        Construida en...
+                                    </button>
+                                    <button class="boton-proyectos" id="boton-CriptoWord2"
+                                        onclick="proyectoCriptoWord()">
+                                        Ver el Proyecto
+                                    </button>
+
+
+                                    <a href="https://github.com/horacio-a" class="boton-proyectos"
+                                        id="boton-CriptoWord4" style="display: none;">github</a>
+
+                                    <a href="https://horaciomalbornoz.com.ar" class="boton-proyectos"
+                                        id="boton-CriptoWord5" style="display: none;">ver en la web</a>
+
+                                    <div class="estructurabotones" id="botones-CriptoWord1">
+                                        <div class="miniboton-proyectos"> HTML</div>
+                                        <div class="miniboton-proyectos"> CSS</div>
+                                    </div>
+
+                                    <div class="estructurabotones" id="botones-CriptoWord2">
+                                        <div class="miniboton-proyectos"> REACT.JS</div>
+                                        <div class="miniboton-proyectos"> NODE.JS</div>
+                                    </div>
+
+
+                                    <div class="miniboton-proyectos" id="boton-CriptoWord3"
+                                        onclick="aparecerCriptoWord()" style="display: none;"> Volver</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloque-tecnologia-unidad ">
+                        <div class="view view-tenth center-flex-j center-flex-ai">
+                            <img src='{% static "imagenes/eyes/BonhomiaLogo.png" %}' width="100%" />
+                            <div class="mask">
+                                <div class="titulo-mask">
+                                    Espacio bonhomia
+                                </div>
+                                <div class="conjunto-botones">
+                                    <button type="button" class="boton-proyectos pointer" id="boton-e-commerce1"
+                                        onclick="tecnologiasEcommerce()">
+                                        Construida en...
+                                    </button>
+                                    <button class="boton-proyectos" id="boton-e-commerce2"
+                                        onclick=" proyectoEcommerce()">
+                                        Ver el Proyecto
+                                    </button>
+
+
+                                    <a href="https://github.com/horacio-a" class="boton-proyectos"
+                                        id="boton-e-commerce4" style="display: none;">github</a>
+
+                                    <a href="" class="boton-proyectos" id="boton-e-commerce5" style="display: none;">ver
+                                        en la web</a>
+
+                                    <div class="estructurabotones" id="botones-e-commerce1">
+                                        <div class="miniboton-proyectos"> HTML</div>
+                                        <div class="miniboton-proyectos"> CSS</div>
+                                    </div>
+
+                                    <div class="estructurabotones" id="botones-e-commerce2">
+                                        <div class="miniboton-proyectos"> PYTHON</div>
+                                        <div class="miniboton-proyectos"> DJANGO</div>
+                                    </div>
+
+
+                                    <div class="miniboton-proyectos" id="boton-e-commerce3"
+                                        onclick="aparecerEcommerce()" style="display: none;"> Volver</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloque-tecnologia-unidad ">
+                        <div class="view view-tenth center-flex-j center-flex-ai">
+                            <img src='{% static "imagenes/eyes/Calculadora.png" %}' width="100%" />
+                            <div class="mask">
+                                <div class="titulo-mask">
+                                    calculadora
+                                </div>
+                                <div class="conjunto-botones">
+                                    <button type="button" class="boton-proyectos" id="botonCalculadora1"
+                                        onclick="tecnologiasCalculadora()">
+                                        Construida en...
+                                    </button>
+                                    <button class="boton-proyectos" id="botonCalculadora2"
+                                        onclick=" proyectoCalculadora()">
+                                        Ver el Proyecto
+                                    </button>
+
+
+                                    <a href="" class="boton-proyectos" id="botonCalculadora4"
+                                        style="display: none;">github</a>
+
+                                    <a href="" class="boton-proyectos" id="botonCalculadora5" style="display: none;">ver
+                                        en la web</a>
+
+                                    <div class="estructurabotones" id="botonesCalculadora1">
+                                        <div class="miniboton-proyectos"> HTML</div>
+                                        <div class="miniboton-proyectos"> CSS</div>
+                                    </div>
+
+                                    <div class="estructurabotones" id="botonesCalculadora2">
+                                        <div class="miniboton-proyectos">Javascript</div>
+                                        <div class="miniboton-proyectos"></div>
+                                    </div>
+
+
+                                    <div class="miniboton-proyectos" id="botonCalculadora3"
+                                        onclick="aparecerCalculadora()" style="display: none;"> Volver</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloque-tecnologia-unidad ">
+                        <div class="view view-tenth center-flex-j center-flex-ai">
+                            <img src="" width="75%" />
+                            <div class="mask">
+                                <div class="titulo-mask">
+                                    Proximamente
+                                </div>
+                                <div class="conjunto-botones">
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-around-flex-j">
+                    <div class="bloque-tecnologia-unidad ">
+                        <div class="view view-tenth center-flex-j center-flex-ai">
+                            <img src="" width="75%" />
+                            <div class="mask">
+                                <div class="titulo-mask">
+                                    Proximamente
+                                </div>
+                                <div class="conjunto-botones">
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloque-tecnologia-unidad ">
+                        <div class="view view-tenth center-flex-j center-flex-ai">
+                            <img src="" width="75%" />
+                            <div class="mask">
+                                <div class="titulo-mask">
+                                    Proximamente
+                                </div>
+                                <div class="conjunto-botones">
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloque-tecnologia-unidad ">
+                        <div class="view view-tenth center-flex-j center-flex-ai">
+                            <img src="" width="75%" />
+                            <div class="mask">
+                                <div class="titulo-mask">
+                                    Proximamente
+                                </div>
+                                <div class="conjunto-botones">
+                                    <a href="" class="boton-proyectos">
+
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+
+                                    </a>
+                                    <a href="" class="boton-proyectos">
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<main class="main-proyecto-movil">
+    <div class="conteiner-proyectos">
+        <div class="titulo-proyecto">
+            Mis Proyectos
+        </div>
+        <div class="bloque-proyecto">
+            <div class="detalles" id="detalle-criptoword">
+                <div class="titulo-mask">
+                    CriptoWord
+                </div>
+                <div class="conjunto-botones">
+                    <button type="button" class="boton-proyectos" id="boton-CriptoWord1-movil"
+                        onclick="tecnologiasCriptoWordMovil()">
+                        Construida en...
+                    </button>
+                    <button class="boton-proyectos" id="boton-CriptoWord2-movil" onclick="proyectoCriptoWordMovil()">
+                        Ver el Proyecto
+                    </button>
+                    <a href="https://github.com/horacio-a" class="boton-proyectos" id="boton-CriptoWord4-movil"
+                        style="display: none;">github</a>
+                    <a href="https://horaciomalbornoz.com.ar" class="boton-proyectos" id="boton-CriptoWord5-movil"
+                        style="display: none;">ver en la web</a>
+                    <div class="estructurabotones" id="botones-CriptoWord1-movil">
+                        <div class="miniboton-proyectos"> HTML</div>
+                        <div class="miniboton-proyectos"> CSS</div>
+                    </div>
+                    <div class="estructurabotones" id="botones-CriptoWord2-movil">
+                        <div class="miniboton-proyectos"> REACT.JS</div>
+                        <div class="miniboton-proyectos"> NODE.JS</div>
+                    </div>
+
+                    <div class="miniboton-proyectos poniter" id="boton-CriptoWord3-movil"
+                        onclick="aparecerCriptoWordMovil()" style="display: none;"> Volver</div>
+                </div>
+            </div>
+            <img src='{% static "imagenes/eyes/icon S.png" %}' height="100%" id="icons" />
+
+        </div>
+        <div class="bloque-proyecto">
+            <div class="detalles" id="detalle-bonhomia">
+                <div class="titulo-mask" style=" font-size: 1.5vh ; ">
+                    Espacio-Bonhomia
+                </div>
+                <div class="conjunto-botones">
+                    <button type="button" class="boton-proyectos" id="botonEcommerce1Movil"
+                        onclick="tecnologiasEcommerceMovil()">
+                        Construida en...
+                    </button>
+                    <button class="boton-proyectos" id="botonEcommerce2Movil" onclick="proyectoEcommerceMovil()">
+                        Ver el Proyecto
+                    </button>
+                    <a href="https://github.com/horacio-a" class="boton-proyectos" id="botonEcommerce4Movil"
+                        style="display: none;">github</a>
+                    <a href="https://horaciomalbornoz.com.ar" class="boton-proyectos" id="botonEcommerce5Movil"
+                        style="display: none;">ver en la web</a>
+                    <div class="estructurabotones" id="BotonesEcommerce1Movil">
+                        <div class="miniboton-proyectos"> HTML</div>
+                        <div class="miniboton-proyectos"> CSS</div>
+                    </div>
+                    <div class="estructurabotones" id="BotonesEcommerce2Movil">
+                        <div class="miniboton-proyectos"> PYTHON</div>
+                        <div class="miniboton-proyectos"> DJANGO</div>
+                    </div>
+
+                    <div class="miniboton-proyectos poniter" id="botonEcommerce3Movil"
+                        onclick="aparecerEcommerceMovil()" style="display: none;"> Volver</div>
+                </div>
+            </div>
+            <img src='{% static "imagenes/eyes/BonhomiaLogo.png" %}' height="100%" id="icon-bonhomia" />
+        </div>
+        <div class="bloque-proyecto">
+            <div class="detalles" id="detalle-calculadora">
+                <div class="titulo-mask" style=" font-size: 1.5vh ; ">
+                    Calculadora
+                    
+                </div>
+                <div class="conjunto-botones">
+                    <button type="button" class="boton-proyectos" id="botonCalculadora1Movil"
+                        onclick="tecnologiasCalculadoraMovil()">
+                        Construida en...
+                    </button>
+                    <button class="boton-proyectos" id="botonCalculadora2Movil" onclick="proyectoCalculadoraMovil()">
+                        Ver el Proyecto
+                    </button>
+                    <a href="https://github.com/horacio-a" class="boton-proyectos" id="botonCalculadora4Movil"
+                        style="display: none;">github</a>
+                    <a href="https://horaciomalbornoz.com.ar" class="boton-proyectos" id="botonCalculadora5Movil"
+                        style="display: none;">ver en la web</a>
+                    <div class="estructurabotones" id="botonesCalculadora1Movil">
+                        <div class="miniboton-proyectos"> HTML</div>
+                        <div class="miniboton-proyectos"> CSS</div>
+                    </div>
+                    <div class="estructurabotones" id="botonesCalculadora2Movil">
+                        <div class="miniboton-proyectos"> JS</div>
+                        <div class="miniboton-proyectos"> </div>
+                    </div>
+
+                    <div class="miniboton-proyectos poniter" id="botonCalculadora3Movil"
+                        onclick="aparecerCalculadoraMovil()" style="display: none;"> Volver</div>
+                </div>
+            </div>
+            <img src='{% static "imagenes/eyes/Calculadora.png" %}' height="100%" id="icon-calculadora" />
+        </div>
+        <div class="bloque-proyecto">
+            Proximamente mas proyectos
+        </div>
+
+    </div>
+
+</main>
+
+{% endblock %}

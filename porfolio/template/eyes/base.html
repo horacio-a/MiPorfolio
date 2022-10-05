@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <title>       
+        {% block title %}
+        Mi porfolio
+        {% endblock %}
+    </title>
+
+    <link type="text/css" rel="stylesheet" href='{% static "css/index.css" %} '>
+
+</head>
+<body>
+    <div class="conteiner-main">
+        <header id="header-pc">
+            <div class="conteiner-idioma">
+                <div class="conteiner-selectidioma" id="Ingles">
+                    <a href="" class="texto-idioma">En</a>
+                </div>
+                <div class="conteiner-selectidioma" id="Español">
+                    <a class="texto-idioma">Es</a>
+                </div>
+            </div>
+            <a href="/eyes/quiensoy" id="conteiner-quiensoy" class="conteiner-quiensoy">
+                <p>
+                    Quien
+                </p>
+                <p class="red">
+                    soy
+                </p>
+            </a>
+            <a href="/eyes/proyectos" class="conteiner-proyectos" id="conteiner-proyectos">
+                <p id="test">
+                    Mis
+                </p>
+                <p id="test" class="red">
+                    proyectos
+                </p>
+            </a>
+            <a href="/eyes" class="conteiner-logo" id="conteiner-logo">
+                <img src='{% static "imagenes/eyes/ojoon.png" %}' alt="" class="ojohover">
+                <img src='{% static "imagenes/eyes/backojo.png" %}' alt="" class="ojosigue" id="ojosigue">
+                <div class="box">
+                    <div class="eye" id="eye"></div>
+                </div>
+            </a>
+            <a href="/eyes/habilidades" class="conteiner-habilidades" id="conteiner-habilidades">
+                <p>
+                    Mis
+                </p>
+                <p class="red text-right">
+                    habilidades
+                </p>
+            </a>
+            <a href="/eyes/contacto" class="conteiner-contacto" id="conteiner-contacto">
+                <p>
+                    Contactame
+                </p>
+                <p class="red text-right">
+                    aqui
+                </p>
+            </a>
+            <div class="conteiner-modo" id="conteiner-modo">
+                <div class="conteiner-selectmodo">
+                    <a href="/estilos/"> <img src='{% static "imagenes/eyes/paleta-de-color.png" %}' alt=""
+                            style="width: 75%;"></a>
+                </div>
+            </div>
+        </header>
+        {% block headermovil %}
+        <header class="header" id="header-movil">
+            <h1 class="h1">
+                <a href="#" class="a"></a>
+            </h1>
+
+            <button class="button" id="button">
+                <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <nav class="nav" id="nav">
+                <div class="item">
+                    <a href="/eyes/quiensoy" class="a">
+                        <p class="primeraParte">Quien</p>
+                        <p class="segundaParte">soy</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="/eyes/proyectos" class="a">
+                        <p class="primeraParte">Mis</p>
+                        <p class="segundaParte">Proyectos</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="/eyes/habilidades" class="a">
+                        <p class="primeraParte">Mis</p>
+                        <p class="segundaParte">habilidades</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="/eyes/contacto" class="a">
+                        <p class="primeraParte">contactame</p>
+                        <p class="segundaParte">aqui</p>
+                    </a>
+                </div>
+                <div class="itemOpciones">
+                    <a href="" class="conteiner-idioma"> En </a>
+                    <a href="" class="conteiner-idioma"> Es </a>
+                    <a href="" class="conteiner-selectmodo">Cambia el estilo</a>
+                    
+                </div>
+
+            </nav>
+        </header>
+        {% endblock %}
+
+        {% block content %}
+        {% endblock %}
+
+    </div>
+    <script type="text/javascript" src='{% static "js/documento.js" %}'></script>
+
+</body>
+
+</html>

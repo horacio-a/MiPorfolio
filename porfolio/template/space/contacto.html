@@ -1,0 +1,129 @@
+{% extends 'space/base.html' %}
+
+
+{% load static %}
+
+
+{% block content %}
+<div class="main-inicio">
+    <div class="main-nombre">
+        <div class="conteinerContacto">
+        <form action="/space/contacto/" method="POST" >
+            {% csrf_token %}
+            <input type="email" placeholder="Email" class="hover" name="email" autocomplete="off">
+            <input type="text" placeholder="Nombre" class="hover" name="name" autocomplete="off">
+            <input type="text" placeholder="Asunto" class="hover" name="subject" autocomplete="off">
+            <textarea placeholder="Mensaje" class="hover" name="message" ></textarea>
+                <input type="submit" class="hover button"></input>
+            <p>{{context.message}}</p>
+        </form>
+        
+    </div>
+    <svg id="reflector_quiensoy" width="223" height="215" viewBox="0 0 223 215" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <g id="Group 37">
+            <path id="Vector 19"
+                d="M96.5685 151.751L0 0H111.5H223L167.25 87.6071L126.431 151.751C119.477 162.679 103.523 162.679 96.5685 151.751Z"
+                fill="url(#paint0_linear_41_2)" />
+            <path id="Rectangle 14"
+                d="M37 200C37 186.193 48.1929 175 62 175H162C175.807 175 187 186.193 187 200V215H37V200Z"
+                fill="#1E1E1E" />
+        </g>
+        <defs>
+            <linearGradient id="paint0_linear_41_2" x1="112" y1="-1.1486e-08" x2="111.5" y2="175.214"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#380E64" />
+                <stop offset="0.766752" stop-color="#FFE02F" />
+            </linearGradient>
+        </defs>
+    </svg>
+    </div>
+    <div class="main-menu">
+        <div class="wrapper-row">
+            <div class="icon fabebook">
+                <span class="tooltip">Change to English</span>
+                <span>
+                    <a class="menu-item" href="/space/en">
+                        <img src='{% static "imagenes/space/idioma.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Quien soy</span>
+                <span>
+                    <a class="menu-item" href="/space/quiensoy">
+                        <img src='{% static "imagenes/space/aboutme.png" %}' alt="">
+
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Mis proyectos</span>
+                <span>
+                    <a class="menu-item" href="/space/proyectos">
+                        <img src='{% static "imagenes/space/proyectos.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Inicio</span>
+                <span>
+                    <a class="menu-item" href="/space">
+                        <img src='{% static "imagenes/space/inicio.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Mis Habilidades</span>
+                <span>
+                    <a class="menu-item" href="/space/habilidades">
+                        <img src='{% static "imagenes/space/habilidades.png" %}' alt="">
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Contactame</span>
+                <span>
+                    <a class="menu-item" href="/space/contacto">
+                        <img src='{% static "imagenes/space/Contacto.png" %}' alt="">
+            
+                    </a>
+                </span>
+            </div>
+            <div class="icon fabebook">
+                <span class="tooltip">Cambia el estilo</span>
+                <span>
+                    <a class="menu-item" href="/estilos">
+                        <img src='{% static "imagenes/space/circulo-de-color.png" %}' alt="">
+            
+                    </a>
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="footer">
+    <div class="wrapper">
+        <a href="https://www.linkedin.com/in/horacio-albornoz-82606923a/" class="icon fabebook">
+            <span class="tooltip">Linkedin</span>
+            <span><img src='{% static "imagenes/space/linkedin.png" %}' alt="" width="100%"></span>
+        </a>
+        <a href='{% static "imagenes/eyes/Curriculum Vitae Albornoz Horacio.pdf" %}' class="icon fabebook">
+            <span class="tooltip">curriculum vitae</span>
+            <span><img src='{% static "imagenes/space/cv.png" %}' alt="" width="85%"></span>
+        </a>
+        <a href="https://github.com/horacio-a" class="icon fabebook">
+            <span class="tooltip">github</span>
+            <span> <img src='{% static "imagenes/space/github.png" %}' alt="" width="100%"></span>
+        </a>
+
+    </div>
+
+
+</div>
+{% endblock %}

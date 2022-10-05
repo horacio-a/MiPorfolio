@@ -1,0 +1,174 @@
+{% extends 'eyes/base.html' %}
+
+
+{% load static %}
+
+{% block title %}
+Contacto
+{% endblock %}
+
+{% block bootstrapcss %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+{% endblock %}
+{% block headermovil %}
+<header class="header" id="header-movil" style="width: 100%;">
+    <h1 class="h1">
+        <a href="#" class="a"></a>
+    </h1>
+
+    <button class="button" id="button">
+        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+    </button>
+
+    <nav class="nav" id="nav">
+        <div class="item">
+            <a href="/eyes/quiensoy" class="a">
+                <p class="primeraParte">Quien</p>
+                <p class="segundaParte">soy</p>
+            </a>
+        </div>
+        <div class="item">
+            <a href="/eyes/proyectos" class="a">
+                <p class="primeraParte">Mis</p>
+                <p class="segundaParte">Proyectos</p>
+            </a>
+        </div>
+        <div class="item">
+            <a href="/eyes/habilidades" class="a">
+                <p class="primeraParte">Mis</p>
+                <p class="segundaParte">habilidades</p>
+            </a>
+        </div>
+        <div class="item">
+            <a href="/eyes/contacto" class="a">
+                <p class="primeraParte">contactame</p>
+                <p class="segundaParte">aqui</p>
+            </a>
+        </div>
+
+    </nav>
+</header>
+{% endblock %}
+
+
+{% block content %}
+<div id="main-contacto-pc">
+    <main style="display: flex; justify-content: space-around; align-items: center;">
+        <div class="conteiner-otros">
+            <div class="titulo-contacto">
+                Contacto Rapido
+            </div>
+            <div class="barra"></div>
+            <div class="texto-contacto">
+                <p>Telefon: +54 299 5707123</p>
+                <p>Email: horaciomatiasalbornoz@gmail.com</p>
+                <p>linkedin:
+                    <a href=""> horacio Albornoz</a>
+                </p>
+                <p>Discord:
+                    <a href=""> horacio Albornoz</a>
+                </p>
+                <p> facebook
+                    <a href=""> horacio Albornoz
+                    </a>
+                </p>
+            </div>
+            <div class="titulo-contacto">
+                Mis Capacidades
+            </div>
+            <div class="barra"></div>
+            <div class="texto-contacto">
+                <p>github:
+                    <a href=""> horacio-a</a>
+                </p>
+                <p>CV:
+                    <a href="">Click aqui</a>
+                </p>
+                <p> linkedin
+                    <a href=""> horacio Albornoz
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="conteiner-ojocontac">
+            <img src='{% static "imagenes/eyes/mascotaon.png" %}' alt="" style="width: 100%; height: auto;">
+        </div>
+        <div class="conteiner-formulario">
+            <div class="container ">
+                <div class="titulo-contacto">
+                    Dejame un mensaje
+                </div>
+
+                <form action="/eyes/contacto/" method="POST" >
+                    {% csrf_token %}
+                    <input type="email" placeholder="Email" class="form-control text-bg-dark text-white mb-3"
+                        name="email">
+                    <input type="text" placeholder="Nombre" class="form-control text-bg-dark text-white mb-3"
+                        name="name">
+                    <input type="text" placeholder="Asunto" class="form-control text-bg-dark text-white mb-3"
+                        name="subject">
+                    <textarea placeholder="Mensaje" class="form-control text-bg-dark text-white mb-3"
+                        name="message"></textarea>
+                    <div class="d-flex justify-content-center">
+                        <input type="submit" class="btn btn-dark btn-lg "></input>
+                    </div>
+                </form>
+
+
+            </div>
+
+        </div>
+</div>
+</main>
+</div>
+<main id="main-contacto-movil">
+    <div class='form-enviar'>
+        <div class="titulo-contacto">Enviar un Mensaje</div>
+        <div class="container ">
+            <form action="/eyes/contacto/" method="POST">
+                <input type="email" placeholder="Email" class="form-movil" name="email">
+                <input type="text" placeholder="Nombre" class="form-movil" name="name">
+                <input type="text" placeholder="Asunto" class="form-movil" name="subject">
+                <textarea placeholder="Mensaje" class=" texto-form-movil" name="message"></textarea>
+                <div class="d-flex justify-content-center conteiner-movil-boton">
+                    <input type="submit" class="boton-movil-contacto">Enviar</input>
+                </div>
+
+            </form>
+
+
+        </div>
+    </div>
+    <div class="contacto-movil">
+        <div class="titulo-contacto">Contacto Rapido</div>
+        <p>Telefono: 299 570-7123 </p>
+        <p>Email: Horacio</p>
+        <p>linkedin: Horacio</p>
+        <p>Discord: Horacio</p>
+    </div>
+</main>
+
+
+
+
+
+
+{% block bootstrapjs %}
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+
+{% endblock %}
+
+
+
+{% endblock %}

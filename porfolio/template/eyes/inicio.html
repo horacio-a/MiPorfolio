@@ -1,0 +1,39 @@
+{% extends 'eyes/base.html' %}
+
+
+{% load static %}
+{% block title %}
+Mi porfolio
+
+{% endblock %}
+
+{% block content %}
+<main>
+    <div class="conteiner-nombre">
+        <p>
+            Horacio
+        </p>
+        <p>
+            Albornoz
+        </p>
+        <p class="caption">
+            desarrollador full stack
+        </p>
+    </div>
+    <div id="conteiner-logogrande">
+        <div class="conteiner-imagen">
+            <img src='{% static "imagenes/eyes/mascotaon.png" %}' alt="" class="imagen-on">
+            <img src='{% static "imagenes/eyes/mascota.png" %}' alt="" class="imagen-off">
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="conteiner-info">
+        <a href="https://github.com/horacio-a"><img src='{% static "imagenes/eyes/github (2).png" %}' alt=""></a>
+        <a href="https://github.com/horacio-a"> <img src='{% static "imagenes/eyes/linkedin (2).png" %}' alt=""></a>
+        <a href="imagenes/Curriculum Vitae Albornoz Horacio.pdf"><img src='{% static "imagenes/eyes/curriculum-vitae.png" %}'
+                alt=""></a>
+    </div>
+</footer>       
+
+{% endblock %}

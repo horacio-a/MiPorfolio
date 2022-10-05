@@ -1,0 +1,1257 @@
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .conteiner-nombre p {
+        color: #85bb65;
+    }
+
+
+
+    .red {
+        color: #85bb65;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+
+    body {
+        margin: 0;
+        background-color: #1B1717;
+        font-family: Cinzel;
+    }
+
+    .conteiner-main {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* -----------------------------------  inicio header -------------------------------------------- */
+
+    #header-pc {
+        display: none;
+    }
+
+
+    .header {
+        width: 90%;
+        height: 5%;
+        padding: 5%;
+        z-index: 100;
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        color: white;
+
+    }
+
+    .a {
+        color: #EEEBDD;
+
+    }
+
+
+    .header .button {
+        display: none;
+    }
+
+    .header .svg {
+        width: 2em;
+        height: 2em;
+        fill: #1B1717;
+    }
+
+    .item {
+        width: 100%;
+        height: 17.5%;
+        margin-bottom: 2.5%;
+        background-color: #EEEBDD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .itemOpciones {
+        width: 100%;
+        height: 17.5%;
+        margin-bottom: 2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item a {
+        color: #1B1717;
+    }
+
+    .item .a {
+        display: flex;
+        color: #1B1717;
+        font-size: 2.25vh;
+    }
+
+    .item .a .segundaParte {
+        color: #85bb65;
+        margin-left: 5px;
+    }
+
+    .header .ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .header .li {
+        margin: 0 .5em;
+        background-color: #EEEBDD;
+        width: 100%;
+    }
+
+    .header .button {
+        display: block;
+        cursor: pointer;
+        background-color: #EEEBDD;
+        border: none;
+        width: 5vh;
+        height: 5vh;
+        border-radius: .5vh;
+        margin-bottom: 1vh;
+    }
+
+    .header .nav {
+        width: 100%;
+        /* display: none; */
+        height: 0;
+        pointer-events: none;
+        overflow: hidden;
+        transition: all .5s ease;
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .nav.activo {
+        background-color: #1B1717;
+        display: block;
+        height: 40vh;
+        pointer-events: auto;
+    }
+
+    .header .ul {
+        flex-direction: column;
+    }
+
+    .header .li {
+        margin: 1rem 0;
+    }
+
+    .conteiner-idioma {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EEEBDD;
+        width: 22%;
+        margin-right: 1.5%;
+        height: 100%;
+        color: #85bb65;
+    }
+
+    .conteiner-selectmodo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EEEBDD;
+        width: 50%;
+        height: 100%;
+        color: #1B1717;
+
+    }
+
+
+
+    /* -----------------------------------  final header -------------------------------------------- */
+
+    /* -----------------------------------  inicio main -------------------------------------------- */
+
+    main {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteiner-nombre {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .conteiner-nombre p {
+        margin: 0ch;
+        color: #EEEBDD;
+        font-size: 12vw;
+        font-family: Cinzel;
+    }
+
+    .conteiner-nombre .caption {
+        color: #85bb65;
+        font-size: 5vw;
+        ;
+        font-family: Cinzel;
+    }
+
+    #conteiner-logogrande {
+        display: none;
+
+    }
+
+    .conteiner-imagen {
+        width: 50vh;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagen-off {
+        position: absolute;
+        width: 22vw;
+        height: 22vw;
+    }
+
+    .imagen-on {
+        position: absolute;
+        width: 22vw;
+        height: 22vw;
+
+    }
+
+    #conteiner-logogrande:hover .imagen-off {
+        visibility: hidden;
+    }
+
+    /* -----------------------------------  fin main -------------------------------------------- */
+
+    /* -----------------------------------  inicio footer -------------------------------------------- */
+    footer {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .conteiner-info {
+        width: 40%;
+        height: 75%;
+        background-color: #EEEBDD;
+        border-radius: 10px;
+        display: flex;
+
+    }
+
+    .conteiner-info a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .conteiner-info img {
+        width: 60%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .conteiner-info img:hover {
+        background-color: gray;
+    }
+
+    /* -----------------------------------  inicio main-quiensoy -------------------------------------------- */
+
+    .conteiner-presentacion {
+        width: 90%;
+        height: 75vh;
+        background-color: #EEEBDD;
+        border-radius: 1vw;
+        display: flex;
+    }
+
+    .prueba {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    .centrar {
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo-presentacion {
+        font-size: 8.5vw;
+        color: #85bb65;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 0.75vw;
+    }
+
+    .text-presentacion {
+        font-size: 4.5vw;
+        text-align: center;
+        margin: 0.5vw;
+        margin-bottom: 5vw;
+    }
+
+    /* -----------------------------------  fin main-quiensoy -------------------------------------------- */
+
+    /* -----------------------------------  inicio main-proyectos -------------------------------------------- */
+
+    .main-proyecto-pc {
+        display: none;
+    }
+
+    .titulo-proyecto {
+        text-align: center;
+        color: #85bb65;
+        font-size: 4.5vh;
+        margin-bottom: 5vw;
+    }
+
+    .conteiner-proyectos {
+        width: 90%;
+        height: 95vh;
+        background-color: #EEEBDD;
+        border-radius: 1vw;
+    }
+
+
+    .abriricons {
+        animation: abriricons 0.5s forwards ease-in-out;
+    }
+
+    @keyframes abriricons {
+        0% {
+            transform: translate(-50%);
+            border-radius: 15px;
+        }
+
+        100% {
+            transform: translate(-100%);
+            border-radius: 15px 0px 0px 15px ;
+        }
+
+    }
+
+    .abrirdetalles {
+        animation: abrirdetalles 0.5s forwards ease-in-out;
+    }
+
+    @keyframes abrirdetalles {
+        0% {
+            transform: translate(50%);
+            width: 17.51vh;
+            border-radius: 15px 15px 15px 15px ;
+        }
+
+        100% {
+            transform: translate(92.5%);
+            width: 18.5vh;
+            border-radius: 0px 15px 15px 0px ;
+        }
+
+    }
+
+    .bloque-proyecto img{
+        border-radius: 15px;
+    }
+
+
+    .bloque-proyecto {
+        width: 100%;
+        height: 17.5vh;
+        margin-bottom: 1vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #icons {
+        position: relative;
+        transform: translate(-50%);
+
+    }
+
+
+    
+    #icon-bonhomia {
+        position: relative;
+        transform: translate(-50%);
+
+    }
+
+    #icon-calculadora {
+        position: relative;
+        transform: translate(-50%);
+
+    }
+
+    .detalles {
+        position: relative;
+        transform: translate(50%);
+        width: 17.51vh;
+        height: 100%;
+        border-radius: 15px 15px 15px 15px ;
+        background-color: #85bb65;
+    }
+
+    .titulo-mask {
+        width: auto;
+        height: 25%;
+        text-align: center;
+        font-size: 2.25vh;
+        color: #1B1717;
+        font-family: Cinzel;
+        padding: 0.3vw;
+
+    }
+
+    .conjunto-botones {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 75%;
+    }
+
+    .boton-proyectos {
+        cursor: pointer;
+        width: 75%;
+        height: 25%;
+        font-size: 1.25vh;
+        font-family: Cinzel;
+        margin-top: 0.5vw;
+        border-radius: 0.25vw;
+        background-color: #e4e4e4;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .estructurabotones {
+        display: none;
+        justify-content: space-around;
+        width: 75%;
+        height: 25%;
+        margin-top: 0.5vw;
+
+    }
+
+    .miniboton-proyectos {
+        font-size: 1.5vh;
+
+        width: 37.5%;
+        height: 25%;
+        font-family: Cinzel;
+        margin-top: 0.5vw;
+        border-radius: 0.5vw;
+        background-color: #e4e4e4;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .estructurabotones .miniboton-proyectos {
+        width: 47.5%;
+        height: 100%;
+        margin-top: 0.0vw;
+        font-family: Cinzel;
+        border-radius: 0.25vw;
+        background-color: #e4e4e4;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* -----------------------------------  fin main-proyectos -------------------------------------------- */
+
+    /* -----------------------------------   main-habilidades-------------------------------------------- */
+    .main-habilidades-pc {
+        display: none;
+    }
+
+    .main-habilidades-movil {
+        height: 85%;
+
+    }
+
+    .conteiner-habilidades {
+        width: 90vw;
+        height: 85vh;
+        background-color: #EEEBDD;
+    }
+
+    .titulo-habilidades {
+        width: 100%;
+        height: 15%;
+        font-size: 3.5vh;
+        color: #85bb65;
+        text-align: center;
+    }
+
+    .conteiner-imagenes {
+        height: 85%;
+        width: 100%;
+    }
+
+    .columna {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    /* -----------------------------------  fin main-habilidades -------------------------------------------- */
+
+    /* -----------------------------------   main-contacto-------------------------------------------- */
+
+    #main-contacto-pc {
+        display: none;
+    }
+
+    #main-contacto-movil {
+        width: 100%;
+        height: 90%;
+    }
+
+
+    .form-enviar {
+        background-color: #e4e4e4;
+        border-radius: 10px;
+        width: 90%;
+        height: 47.5vh;
+        margin-bottom: 2vh;
+
+    }
+
+    .contacto-movil {
+        background-color: #e4e4e4;
+        border-radius: 10px;
+        width: 90%;
+        height: 35vh;
+    }
+
+    .contacto-movil p {
+        text-align: center;
+        color: #1B1717;
+        font-size: 5.5vw;
+    }
+
+    .titulo-contacto {
+        color: #85bb65;
+        font-size: 7.5vw;
+        text-align: center;
+        margin-bottom: 2.5vh;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton-movil-contacto{
+        border: none;
+        width: 90%;
+        height: 7.5vh ;
+        background-color: #1B1717;
+        color: #EEEBDD;
+        border-radius: 15px;
+
+    }
+    .conteiner-movil-boton{
+    width: 100%;
+    height: 100%;
+    }
+
+    .texto-form-movil{
+        background-color: #1B1717;
+        color: #EEEBDD;
+        border-radius: 15px;
+        border: none;
+        width: 90%;
+        margin-bottom: 1vh;
+        padding: 10px;
+        height: 7.5vh;
+    }
+
+    .form-movil {
+        background-color: #1B1717;
+        color: #EEEBDD;
+        border-radius: 15px;
+        border: none;
+        width: 90%;
+        height: 6vh;
+        margin-bottom: 1vh;
+        padding: 10px;
+    }
+
+    /* -----------------------------------  fin main-contacto -------------------------------------------- */
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+@media (min-width: 769px) {
+    #main-contacto-movil {
+        display: none;
+    }
+
+    #header-movil {
+        display: none;
+    }
+
+    .main-proyecto-movil {
+        display: none;
+    }
+
+
+
+    .red {
+        color: #85bb65;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+
+    body {
+        margin: 0;
+        background-color: #1B1717;
+        font-family: Cinzel;
+    }
+
+    .conteiner-main {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* -----------------------------------  inicio header -------------------------------------------- */
+
+
+    header {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .conteiner-idioma {
+        width: 7.5%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .texto-idioma {
+        color: #85bb65;
+        font-family: Cinzel;
+        font-size: 1.25vw;
+    }
+
+    .conteiner-idioma .conteiner-selectidioma {
+        background-color: #EEEBDD;
+        border-radius: 5px;
+        width: 50%;
+        height: 25%;
+        margin: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .conteiner-quiensoy {
+        width: 12.5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .conteiner-proyectos {
+        width: 12.5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .conteiner-logo {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        top: 1.25vw;
+    }
+
+    .box .eye {
+        position: absolute;
+        width: 4vw;
+        height: 4vw;
+        display: block;
+        margin: 0 20px;
+        border-radius: 50%;
+    }
+
+    .box .eye::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        width: 35%;
+        height: 35%;
+        border-radius: 50%;
+        background-color: #EEEBDD;
+        transform: translate(50%, -50%);
+        box-sizing: border-box;
+    }
+
+    .ojosigue {
+        position: absolute;
+        width: 10%;
+        height: auto;
+    }
+
+    .ojohover {
+        position: absolute;
+        width: 10%;
+        height: auto;
+    }
+
+
+    .conteiner-habilidades {
+        width: 12.5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .conteiner-contacto {
+        width: 12.5%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .conteiner-modo {
+
+        width: 7.5%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .conteiner-modo .conteiner-selectmodo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #EEEBDD;
+        border-radius: 1vw;
+        width: 50%;
+        height: 50%;
+    }
+
+    .conteiner-modo .conteiner-selectmodo a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    header p {
+        margin: 0ch;
+        color: #EEEBDD;
+        font-size: 1.55vw;
+        font-family: Cinzel;
+    }
+
+    header .conteiner-habilidades p {
+        margin: 0ch;
+        margin-right: 10%;
+    }
+
+
+
+
+    /* -----------------------------------  final header -------------------------------------------- */
+
+    /* -----------------------------------  inicio main -------------------------------------------- */
+
+    main {
+        width: 100%;
+        height: 80%;
+        display: flex;
+    }
+
+    .conteiner-nombre {
+        width: 50%;
+        height: 100%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+    }
+
+    .conteiner-nombre p {
+        margin: 0ch;
+        color: #EEEBDD;
+        font-size: 6vw;
+        font-family: Cinzel;
+    }
+
+    .conteiner-nombre .caption {
+        color: #85bb65;
+        font-size: 2vw;
+        font-family: Cinzel;
+    }
+
+    #conteiner-logogrande {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteiner-imagen {
+        width: 50vh;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagen-off {
+        position: absolute;
+        width: 22vw;
+        height: 22vw;
+    }
+
+    .imagen-on {
+        position: absolute;
+        width: 22vw;
+        height: 22vw;
+
+    }
+
+    #conteiner-logogrande:hover .imagen-off {
+        visibility: hidden;
+    }
+
+    /* -----------------------------------  fin main -------------------------------------------- */
+
+    /* -----------------------------------  inicio footer -------------------------------------------- */
+    footer {
+        width: 100%;
+        height: 5%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .conteiner-info {
+        width: 10%;
+        height: 100%;
+        background-color: #EEEBDD;
+        border-radius: 10px;
+        display: flex;
+
+    }
+
+    .conteiner-info a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .conteiner-info img {
+        width: 60%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .conteiner-info img:hover {
+        background-color: gray;
+    }
+
+
+    /* -----------------------------------  fin footer -------------------------------------------- */
+
+    /* -----------------------------------  inicio main-quiensoy -------------------------------------------- */
+
+    .conteiner-presentacion {
+        width: 50%;
+        height: 22vw;
+        background-color: #EEEBDD;
+        border-radius: 1vw;
+        margin-right: 10vw;
+    }
+
+
+    .centrar {
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo-presentacion {
+        font-size: 3vw;
+        color: #85bb65;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 0.75vw;
+    }
+
+    .text-presentacion {
+        font-size: 1.125vw;
+        text-align: center;
+        margin: 0.5vw;
+
+    }
+
+    /* -----------------------------------  fin main-quiensoy -------------------------------------------- */
+
+    /* -----------------------------------  inicio main-proyectos -------------------------------------------- */
+    .conteiner-misproyectos {
+        width: 75vw;
+        height: 37vw;
+        background-color: #EEEBDD;
+        border-radius: 1vw;
+
+    }
+
+    .center-flex-j {
+        display: flex;
+        justify-content: center;
+    }
+
+    .space-around-flex-j {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .center-flex-ai {
+        display: flex;
+        align-items: center;
+    }
+
+    .bloque-tecnologia {
+        width: 100%;
+        height: 100%
+    }
+
+    .margen-tb-25 {
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .bloque-tecnologia-unidad {
+        width: 14vw;
+        height: 14vw;
+        margin-top: .5vw;
+        border-radius: 1vw;
+        margin-bottom: 1.5vw;
+
+    }
+
+    .titulo-tecnologia {
+        color: #85bb65;
+        font-family: Cinzel;
+        margin-bottom: 1vw;
+
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .view {
+        width: 100%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+        position: relative;
+
+
+    }
+
+    .view .mask,
+    .view .content {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    .view img {
+        display: block;
+        position: relative;
+    }
+
+    .view-tenth img {
+        transition: all 0.75s ease-in-out;
+    }
+
+    .view-tenth:hover img {
+        transform: scale(10);
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+
+    .view-tenth .mask {
+        background-color: #85bb65;
+        border: #e4e4e4 1px solid;
+        border-radius: 20px;
+        transition: all 0.5s linear;
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+
+    .view-tenth:hover .mask {
+        filter: alpha(opacity=100);
+        opacity: 1;
+    }
+
+    .view-tenth h2 {
+
+        font-size: 20px;
+        margin-top: 15px;
+        background: transparent;
+        text-align: center;
+        transform: scale(0);
+        color: #e4e4e4;
+        transition: all 0.5s linear;
+        filter: alpha(opacity=0);
+        opacity: 0;
+    }
+
+    .view-tenth p {
+        color: #dddddd;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        transform: scale(0);
+        transition: all 0.5s linear;
+    }
+
+
+    .view-tenth:hover h2,
+    .view-tenth:hover p {
+        transform: scale(1);
+        filter: alpha(opacity=100);
+        opacity: 1;
+    }
+
+    .titulo-mask {
+        width: auto;
+        height: 25%;
+        text-align: center;
+        font-size: 1.25vw;
+        color: #1B1717;
+        font-family: Cinzel;
+        padding: 0.3vw;
+
+    }
+
+    .conjunto-botones {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 75%;
+    }
+
+    .poniter {
+        cursor: pointer;
+    }
+
+    .boton-proyectos {
+        cursor: pointer;
+        width: 75%;
+        height: 25%;
+        font-family: Cinzel;
+        margin-top: 0.5vw;
+        border-radius: 0.25vw;
+        background-color: #e4e4e4;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .estructurabotones {
+        display: none;
+        justify-content: space-around;
+        width: 75%;
+        height: 25%;
+        margin-top: 0.5vw;
+
+    }
+
+    .miniboton-proyectos {
+        width: 37.5%;
+        height: 25%;
+        font-family: Cinzel;
+        margin-top: 0.5vw;
+        border-radius: 0.25vw;
+        background-color: #e4e4e4;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .estructurabotones .miniboton-proyectos {
+        width: 47.5%;
+        height: 100%;
+        margin-top: 0.0vw;
+        font-family: Cinzel;
+        border-radius: 0.25vw;
+        background-color: #e4e4e4;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* -----------------------------------  fin main-proyectos -------------------------------------------- */
+
+    .main-habilidades-movil {
+        display: none;
+    }
+
+
+
+    .conteiner-otros {
+        height: 75vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #EEEBDD;
+        color: #1B1717;
+        border-radius: 1vw;
+    }
+
+    .titulo-contacto {
+        font-size: 2.3vw;
+        margin: 1vw;
+        margin-bottom: 0%;
+        text-align: center;
+    }
+
+    .conteiner-formulario {
+        height: 75vh;
+        width: 30vw;
+        background-color: #EEEBDD;
+        color: #1B1717;
+        border-radius: 1vw;
+    }
+
+    .texto-contacto {
+        width: 95%;
+        height: auto;
+    }
+
+
+    .texto-contacto p {
+        font-size: 1.2vw;
+        text-align: start;
+    }
+
+    .conteiner-ojocontac {
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .barra {
+        width: 75%;
+        height: 1px;
+        background-color: #1B1717;
+        margin-bottom: 1vw;
+
+    }
+
+    form {
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+}
