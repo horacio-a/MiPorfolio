@@ -5,10 +5,10 @@ from django.http import HttpResponse
 
 
 def inicio(request):
-    pagina = randint(1 , 3)
+    pagina = randint(1 , 2)
     if pagina == 1 :
         return redirect('/eyes', request );
-    elif pagina == 2:
+    elif pagina == 0:
         return redirect('/moder', request);
     elif pagina == 3:
         return redirect('/space', request);

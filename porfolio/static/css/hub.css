@@ -1,21 +1,39 @@
     @font-face {
     font-family: lemonmilk;
-    src: url(LEMONMILK-Light.otf);
+    src: url('../fuentes/LEMONMILK-Regular.otf');
 }
 
 @font-face {
     font-family: dreamscape;
-    src: url('fuentes/Dreamscape.ttf');
+    src: url('../fuentes/Dreamscape.ttf');
 }
 
 
 @font-face {
     font-family: Cinzel;
-    src: url(porfolioojos\fuentes\Cinzel-Regular.otf);
+    src: url('../fuentes/Cinzel-Regular.otf');
 }
 @font-face {
     font-family: chakra;
     src: url(cuartointento/fuentes/ChakraPetch-Regular.ttf);
+}
+
+
+@media (min-width: 0px) and (max-width: 768px) {
+.conteiner-main{
+    display: none;
+}
+
+.conteiner-estilos{
+
+}
+
+}
+
+@media (min-width: 769px) {
+
+.conteiner-main-movil{
+    display: none;
 }
 
 body{
@@ -116,4 +134,5 @@ footer{
     100% {
         opacity: 100%;
     }
+}
 }
