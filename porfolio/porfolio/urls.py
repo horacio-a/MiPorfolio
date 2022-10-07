@@ -1,9 +1,11 @@
 from django.urls import include
 from django.contrib import admin
 from django.urls import path
-from .views import inicio, estilos
+from .views import handler404, inicio, estilos
 from django.conf import settings
 from django.conf.urls.static import static
+
+
 
 urlpatterns = [
     path('', inicio, name='home' ),
@@ -12,3 +14,6 @@ urlpatterns = [
     path('space/', include('space.urls')),
     path('estilos/', estilos, name='estilos')
 ] + static (settings.STATIC_URL, document_root = settings.STATIC_ROOT )
+
+
+handler404 = 'porfolio.views.handler404'
