@@ -330,6 +330,10 @@
     .main-proyecto-pc {
         display: none;
     }
+    .main-proyecto-movil {
+        width: 100%;
+        height: 90%;
+    }
 
     .titulo-proyecto {
         text-align: center;
@@ -340,7 +344,7 @@
 
     .conteiner-proyectos {
         width: 90%;
-        height: 95vh;
+        height: 95%;
         background-color: #EEEBDD;
         border-radius: 1vw;
     }
@@ -505,7 +509,7 @@
     }
 
     .main-habilidades-movil {
-        height: 90%;
+        height: 85%;
         width: 100%;
 
     }
