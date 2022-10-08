@@ -506,12 +506,13 @@
 
     .main-habilidades-movil {
         height: 90%;
+        width: 100%;
 
     }
 
     .conteiner-habilidades {
-        width: 90vw;
-        height: 85vh;
+        width: 90%;
+        height: 100%;
         background-color: #EEEBDD;
     }
 
