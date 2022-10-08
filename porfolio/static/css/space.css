@@ -321,6 +321,79 @@
 
     /* ///////////////////////////  Quien soy movil //////////////////////////////// */
 
+    /* ///////////////////////////  contacto movil //////////////////////////////// */
+
+    .conteinerContacto form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteinerContacto {
+        border-radius: 1vh;
+        padding: 2vh;
+        width: 75%;
+        background-color: #5F328B;
+    }
+
+    .conteinerContacto form input {
+        height: 4.5vh;
+        border-radius: 0.5vh;
+        cursor: none;
+        width: 100%;
+        margin: 1vh;
+        border: none;
+        color: #BFE4F8;
+        background-color: #380E64;
+    }
+
+    .conteinerContacto form input::placeholder {
+        padding: 1vh;
+        font-family: dreamscape;
+        color: #BFE4F8;
+    }
+
+    .conteinerContacto form input:focus::placeholder {
+        color: #380E64;
+    }
+
+
+    .conteinerContacto form textarea {
+        height: 4.5vh;
+        border-radius: 0.5vh;
+        width: 100%;
+        margin: 1vh;
+        border: none;
+        color: #BFE4F8;
+        background-color: #380E64;
+        cursor: none;
+        max-height: 9vh;
+    }
+
+    .conteinerContacto form textarea::placeholder {
+        padding: 1vh;
+        font-family: dreamscape;
+        color: #BFE4F8;
+    }
+
+    .conteinerContacto form textarea:focus::placeholder {
+        color: #380E64;
+    }
+
+    .conteinerContacto input.button {
+        font-family: dreamscape;
+        background-color: #FFE02F;
+        color: #380E64;
+        width: 25%;
+    }
+
+    .conteinerContacto input.button:hover {
+        background-color: #ffec83;
+    }
+
+    /* ///////////////////////////   contacto movil  //////////////////////////////// */
+
 
 
 
