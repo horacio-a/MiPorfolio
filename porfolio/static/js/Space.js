@@ -151,3 +151,21 @@ function slider() {
 
 
 
+
+const nav = document.querySelector('.nav')
+
+
+const button = document.getElementById('button')
+
+
+button.addEventListener('click', () => {
+    button.textContent = 'Close'
+    button.classList.toggle('activo')
+    nav.classList.toggle('activo')
+    if(button.classList.length ==1){
+        button.textContent = 'menu'
+
+    }
+})
+
+
