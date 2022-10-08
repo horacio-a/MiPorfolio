@@ -6,6 +6,24 @@
 
 
 
+@media (min-width: 0px) and (max-width: 768px) {
+    .tracker{
+        display: none;
+    }
+    .tracker2{
+        display: none;
+    }
+    body {
+        cursor: none;
+        overflow: hidden;
+        font-family: dreamscape;
+        margin: 0;
+        background-color: #ffffff;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media (min-width: 769px) {
 
 
 html {
@@ -752,3 +770,4 @@ cursor: none;
 
 
 /* /////////////////////////// contacto //////////////////////////////// */
+}
