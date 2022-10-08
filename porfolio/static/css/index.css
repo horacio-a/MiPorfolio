@@ -331,8 +331,8 @@
         display: none;
     }
     .main-proyecto-movil {
+        height: 85%;
         width: 100%;
-        height: 90%;
     }
 
     .titulo-proyecto {
@@ -344,7 +344,7 @@
 
     .conteiner-proyectos {
         width: 90%;
-        height: 95%;
+        height: 100%;
         background-color: #EEEBDD;
         border-radius: 1vw;
     }
@@ -515,6 +515,7 @@
     }
 
     .conteiner-habilidades {
+        border-radius: 1vw ;
         width: 90%;
         height: 100%;
         background-color: #EEEBDD;
