@@ -595,11 +595,11 @@
 
     .boton-movil-contacto{
         border: none;
-        width: 90%;
-        height: 7.5vh ;
+        width: 45%;
+        height: 5vh ;
         background-color: #1B1717;
         color: #EEEBDD;
-        border-radius: 15px;
+        border-radius: 1vh;
 
     }
     .conteiner-movil-boton{
@@ -610,23 +610,32 @@
     .texto-form-movil{
         background-color: #1B1717;
         color: #EEEBDD;
-        border-radius: 15px;
+        border-radius: 1vh;
         border: none;
-        width: 90%;
+        width: 75%;
         margin-bottom: 1vh;
         padding: 10px;
-        height: 7.5vh;
+        height: 5vh;
     }
 
     .form-movil {
         background-color: #1B1717;
         color: #EEEBDD;
-        border-radius: 15px;
+        border-radius: 1vh;
         border: none;
-        width: 90%;
-        height: 6vh;
+        width: 75%;
+        height: 3vh;
         margin-bottom: 1vh;
         padding: 10px;
+    }
+
+    #main-contacto-movil form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    
     }
 
     /* -----------------------------------  fin main-contacto -------------------------------------------- */

@@ -13,7 +13,7 @@ Contacto
 
 {% endblock %}
 {% block headermovil %}
-<header class="header" id="header-movil" style="width: 100%;">
+<header class="header" id="header-movil">
     <h1 class="h1">
         <a href="#" class="a"></a>
     </h1>
@@ -50,6 +50,12 @@ Contacto
                 <p class="primeraParte">contactame</p>
                 <p class="segundaParte">aqui</p>
             </a>
+        </div>
+        <div class="itemOpciones">
+            <a href="" class="conteiner-idioma"> En </a>
+            <a href="" class="conteiner-idioma"> Es </a>
+            <a href="/estilos/" class="conteiner-selectmodo">Cambia el estilo</a>
+
         </div>
 
     </nav>
@@ -105,7 +111,7 @@ Contacto
                     Dejame un mensaje
                 </div>
 
-                <form action="/eyes/contacto/" method="POST" >
+                <form action="/eyes/contacto/" method="POST">
                     {% csrf_token %}
                     <input type="email" placeholder="Email" class="form-control text-bg-dark text-white mb-3"
                         name="email">
@@ -124,21 +130,19 @@ Contacto
             </div>
 
         </div>
-</div>
-</main>
+    </main>
+
 </div>
 <main id="main-contacto-movil">
     <div class='form-enviar'>
         <div class="titulo-contacto">Enviar un Mensaje</div>
-        <div class="container ">
+        <div class="container">
             <form action="/eyes/contacto/" method="POST">
                 <input type="email" placeholder="Email" class="form-movil" name="email">
                 <input type="text" placeholder="Nombre" class="form-movil" name="name">
                 <input type="text" placeholder="Asunto" class="form-movil" name="subject">
-                <textarea placeholder="Mensaje" class=" texto-form-movil" name="message"></textarea>
-                <div class="d-flex justify-content-center conteiner-movil-boton">
-                    <input type="submit" class="boton-movil-contacto">Enviar</input>
-                </div>
+                <textarea placeholder="Mensaje" class="texto-form-movil" name="message"></textarea>
+                <input type="submit" class="boton-movil-contacto"></input>
 
             </form>
 
