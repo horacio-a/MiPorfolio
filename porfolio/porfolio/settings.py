@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%56q424f*i$*pfk1!9f#f^%zkr%rva&$d^w8atz7#3)$6l-@6$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['horacio-albornoz.herokuapp.com', 'localhost', '127.0.0.1']
@@ -42,6 +42,9 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+
+     "whitenoise.middleware.WhiteNoiseMiddleware",
+
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -136,13 +139,9 @@ EMAIL_USE_TLS = True
 
 
 
-STATIC_ROOT = os.path.join( BASE_DIR , 'staticfiles' )
-STATIC_TMP = os.path.join( BASE_DIR , 'static' )
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL= '/static/' 
 
-os.makedirs ( STATIC_TMP , exist_ok=True )
-os.makedirs ( STATIC_ROOT , exist_ok=True )
 
 STATICFILES_DIRS = (
     os.path.join ( BASE_DIR , 'static' ) ,

@@ -11,6 +11,7 @@ handler404 = mi_error_404
 
 
 urlpatterns = [
+    
     path('', inicio, name='home' ),
     path('admin/', admin.site.urls),
     path('eyes/', include('eyes.urls')),
