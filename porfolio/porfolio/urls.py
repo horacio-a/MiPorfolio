@@ -5,9 +5,8 @@ from .views import  inicio, estilos
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import handler404
-from .views import mi_error_404
+from porfolio.views import Error404View
  
-handler404 = mi_error_404
 
 
 urlpatterns = [
@@ -19,4 +18,5 @@ urlpatterns = [
     path('estilos/', estilos, name='estilos')
 ] + static (settings.STATIC_URL, document_root = settings.STATIC_ROOT )
 
+handler404 = Error404View.as_view()
 

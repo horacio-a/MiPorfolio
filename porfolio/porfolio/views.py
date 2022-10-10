@@ -1,9 +1,10 @@
+from pipes import Template
 from django.views.defaults import page_not_found
 
 from random import randint
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
-
+from django.views.generic import(TemplateView)
 
 def inicio(request):
     pagina = randint(1 , 2)
@@ -18,7 +19,5 @@ def estilos(request):
     return render(request, 'configestilos.html')
 
  
-def mi_error_404(request , exception):
-    nombre_template = '404.html'
- 
-    return page_not_found(request, template_name=nombre_template)
+class Error404View(TemplateView):
+    template_name = "404.html"
