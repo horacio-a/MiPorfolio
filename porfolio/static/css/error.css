@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    background-color: #1E1E1E;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    font-size: 2.25vh;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    font-size: 12vh;
+    margin: 0%;
+}
+.lost{
+    font-size: 3vh;
+
+}
+
+.conteiner-a{
+    display: flex;
+}
+
+
+.conteiner-a p{
+margin: 0%;
+}
+
+.conteiner-a a{
+    color: white;
+    margin-left: 0.5rem;
+}
+
+footer p{
+    margin: 0.5%;
+}
