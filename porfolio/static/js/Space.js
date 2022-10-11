@@ -1,42 +1,55 @@
 const tracker = document.querySelector(".tracker");
-document.body.addEventListener("mousemove", e => {
-    tracker.style.left = `${e.clientX}px`;
-    tracker.style.top = `${e.clientY}px`;
-});
-
-const tracker2 = document.querySelector(".tracker2");
-document.body.addEventListener("mousemove", e => {
-    tracker2.style.left = `${e.clientX}px`;
-    tracker2.style.top = `${e.clientY}px`;
-});
-
-
-const text = document.getElementById("SpanID")
 
 let navegador = navigator.userAgent;
+
+const tracker2 = document.querySelector(".tracker2");
+
 if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
-    text.textContent="New Text";
+    tracker.classList.add('hidden')
+    tracker2.classList.add('hidden')
+
 } else {
-    text.textContent="asdfasdf";
+    document.body.addEventListener("mousemove", e => {
+        tracker2.style.left = `${e.clientX}px`;
+        tracker2.style.top = `${e.clientY}px`;
+    });
+    document.body.addEventListener("mousemove", e => {
+        tracker.style.left = `${e.clientX}px`;
+        tracker.style.top = `${e.clientY}px`;
+    });
+
 }
 
+if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    tracker.classList.add('hidden')
+    tracker2.classList.add('hidden')
 
-const icons = document.querySelectorAll('.icon')
+}
+
+if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    tracker.classList.add('hidden')
+    tracker2.classList.add('hidden')
+
+} else {
+    const icons = document.querySelectorAll('.icon')
 
 
-icons.forEach(icon => {
-    icon.addEventListener('mouseover', function () {
-        tracker.classList.add('hidden')
-        tracker2.classList.remove('hidden')
+    icons.forEach(icon => {
+        icon.addEventListener('mouseover', function () {
+            tracker.classList.add('hidden')
+            tracker2.classList.remove('hidden')
+        })
     })
-})
-
-icons.forEach(icon => {
-    icon.addEventListener('mouseout', function () {
-        tracker.classList.remove('hidden')
-        tracker2.classList.add('hidden')
+    
+    icons.forEach(icon => {
+        icon.addEventListener('mouseout', function () {
+            tracker.classList.remove('hidden')
+            tracker2.classList.add('hidden')
+        })
     })
-})
+    
+
+}
 
 
 const conteudo = document.querySelector('.conteudo')
