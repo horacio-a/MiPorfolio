@@ -301,6 +301,7 @@
         background-color: #5F318B;
         color: #BFE4F8;
     }
+
     .conteiner-quiensoy p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2vh;
@@ -322,14 +323,16 @@
 
     /* /////////////////////////// Proyectos movil  //////////////////////////////// */
 
-    .main-proyecto{ 
+    .main-proyecto {
         display: none;
     }
-    .main-proyecto-movil{ 
+
+    .main-proyecto-movil {
         width: 100%;
         height: 100%;
 
     }
+
     .section {
         display: flex;
         flex-direction: column;
@@ -420,8 +423,8 @@
     }
 
 
-    .tecnologias-construccion img{
-        height:  100%;
+    .tecnologias-construccion img {
+        height: 100%;
 
     }
 
@@ -466,10 +469,11 @@
     /* ///////////////////////////  habilidades movil //////////////////////////////// */
 
 
-    .main-habilidades{
+    .main-habilidades {
         display: none;
     }
-    .main-habilidades-movil{
+
+    .main-habilidades-movil {
         width: 100%;
         height: 100%;
         display: flex;
@@ -477,7 +481,8 @@
         justify-content: center;
         align-items: center;
     }
-    .conteudo{
+
+    .conteudo {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -486,7 +491,8 @@
         border-radius: 1vh;
         width: 75%;
     }
-    .conteudo .row{
+
+    .conteudo .row {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -494,7 +500,7 @@
         height: 25%;
     }
 
-    .conteudo img{
+    .conteudo img {
         width: 25%;
         margin: 5%;
     }
@@ -882,6 +888,7 @@
         background-color: #5F318B;
         color: #BFE4F8;
     }
+
     .conteiner-quiensoy p {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 2vh;
@@ -903,14 +910,21 @@
 
     /* /////////////////////////// Proyectos movil  //////////////////////////////// */
 
-    .main-proyecto{ 
-        display: none;
-    }
-    .main-proyecto-movil{ 
+    .main-proyecto {
         width: 100%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .main-proyecto-movil {
+        display: none;
+
 
     }
+
     .section {
         display: flex;
         flex-direction: column;
@@ -1001,8 +1015,8 @@
     }
 
 
-    .tecnologias-construccion img{
-        height:  100%;
+    .tecnologias-construccion img {
+        height: 100%;
 
     }
 
@@ -1047,10 +1061,11 @@
     /* ///////////////////////////  habilidades movil //////////////////////////////// */
 
 
-    .main-habilidades{
+    .main-habilidades {
         display: none;
     }
-    .main-habilidades-movil{
+
+    .main-habilidades-movil {
         width: 100%;
         height: 100%;
         display: flex;
@@ -1058,7 +1073,8 @@
         justify-content: center;
         align-items: center;
     }
-    .conteudo{
+
+    .conteudo {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1067,7 +1083,8 @@
         border-radius: 1vh;
         width: 75%;
     }
-    .conteudo .row{
+
+    .conteudo .row {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -1075,7 +1092,7 @@
         height: 25%;
     }
 
-    .conteudo img{
+    .conteudo img {
         width: 25%;
         margin: 5%;
     }
@@ -1165,7 +1182,7 @@
 
 
 
-@media (min-width: 1200px)  {
+@media (min-width: 1200px) {
     #header-movil {
         display: none;
     }
@@ -1578,9 +1595,10 @@
 
 
     /* /////////////////////////// Habilidades //////////////////////////////// */
-    .main-habilidades-movil{
+    .main-habilidades-movil {
         display: none;
     }
+
     .main-habilidades {
         display: flex;
         flex-direction: column;
@@ -1738,16 +1756,17 @@
 
 
     /* /////////////////////////// proyecto //////////////////////////////// */
-    .main-proyecto-movil{ 
+    .main-proyecto-movil {
         display: none;
     }
-    .main-proyecto{
-            width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    .main-proyecto {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .section {
@@ -1937,5 +1956,3 @@
 
     /* /////////////////////////// contacto //////////////////////////////// */
 }
-
-
