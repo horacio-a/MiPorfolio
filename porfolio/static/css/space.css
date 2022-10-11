@@ -588,6 +588,579 @@
 
 
 @media (min-width: 951px) and (max-width: 1199px) {
+    body {
+        cursor: none;
+        overflow: hidden;
+        font-family: dreamscape;
+        margin: 0;
+        background-color: #380E64;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+
+    .tracker {
+        display: none;
+    }
+
+    .tracker2 {
+        display: none;
+    }
+
+    .martes {
+        position: absolute;
+        top: -5%;
+        left: 60%;
+        width: 17vh;
+
+    }
+
+    .planeta {
+        position: absolute;
+        top: 80%;
+        left: -50%;
+        width: 35vh;
+    }
+
+    .moon {
+        position: absolute;
+        top: 20%;
+        left: -10%;
+        width: 15vh;
+    }
+
+    .planetas-back {
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .main-inicio {
+        width: 100%;
+        height: 80%;
+    }
+
+    .main-nombre {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-movil {
+        color: #FFE02F;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+    .header {
+        width: 100%;
+        height: 10%;
+        z-index: 100;
+        position: relative;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+
+    }
+
+    .a {
+        color: #EEEBDD;
+
+    }
+
+    .header .svg {
+        width: 2em;
+        height: 2em;
+        fill: #1B1717;
+    }
+
+    .item {
+        width: 100%;
+        height: 12%;
+        margin-bottom: 1%;
+        background-color: #380E64;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .item a {
+        height: 75%;
+        width: 45%;
+        background-color: #FFE02F;
+        border-radius: 1vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #1B1717;
+        font-size: 1.75vh;
+    }
+
+    .itemOpciones {
+        width: 100%;
+        height: 15%;
+        margin-bottom: 1%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+
+    .itemOpciones a {
+        font-size: 1.75vh;
+        width: 35%;
+        height: 75%;
+        background-color: #FFE02F;
+        border-radius: 1vh;
+        color: #1B1717;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    .header .ul {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .header .li {
+        margin: 0 .5em;
+        background-color: #380E64;
+        width: 100%;
+    }
+
+    .header .button {
+        font-family: dreamscape;
+        width: 100%;
+        height: 100%;
+        display: block;
+        cursor: pointer;
+        border: none;
+        background: none;
+        color: #FFE02F;
+        font-size: 2.5vh;
+        border-radius: .5vh;
+        margin-bottom: 1vh;
+    }
+
+
+    .header .button.activo {
+        background-color: #5F328B;
+        margin-bottom: 0vh;
+    }
+
+    .header .nav {
+        width: 100%;
+        height: 0;
+        pointer-events: none;
+        overflow: hidden;
+        transition: all .5s ease;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .nav.activo {
+        background-color: #5F328B;
+        display: block;
+        height: 40vh;
+        pointer-events: auto;
+    }
+
+    .header .ul {
+        flex-direction: column;
+    }
+
+    .header .li {
+        margin: 1rem 0;
+    }
+
+
+
+
+
+
+
+
+
+
+    .footer {
+        display: none;
+    }
+
+
+    .footer-movil {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .footer-movil a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #5F328B;
+        border-radius: 50%;
+        height: 7.5vh;
+        width: 7.5vh;
+    }
+
+    .footer-movil a img {
+        height: 65%;
+        width: auto;
+    }
+
+    .main-nombre p {
+        margin: 0%;
+        color: #BFE4F8;
+        margin-top: 1vh;
+        font-size: 6.75vh;
+    }
+
+    .epilogo {
+        color: #FFE02F;
+        font-size: 2.5vh;
+    }
+
+    /* /////////////////////////// Quien soy movil  //////////////////////////////// */
+
+
+    .main-quiensoy {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #reflector_quiensoy {
+        width: 20.6vh;
+        height: 19.5vh;
+    }
+
+    .conteiner-quiensoy {
+        border-radius: 1vh;
+        padding: 1vh;
+        width: 75%;
+        height: auto;
+        background-color: #5F318B;
+        color: #BFE4F8;
+    }
+    .conteiner-quiensoy p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2vh;
+        text-align: center;
+
+    }
+
+    .quiensoy-titulo {
+        display: none;
+    }
+
+    .quiensoy-titulo-movil {
+        color: #BFE4F8;
+        font-size: 3.75vh;
+        margin-bottom: 1vh;
+    }
+
+    /* ///////////////////////////  Quien soy movil //////////////////////////////// */
+
+    /* /////////////////////////// Proyectos movil  //////////////////////////////// */
+
+    .main-proyecto{ 
+        display: none;
+    }
+    .main-proyecto-movil{ 
+        width: 100%;
+        height: 100%;
+
+    }
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .slider {
+        position: relative;
+        width: 100%;
+        height: 80%;
+        text-align: center;
+    }
+
+    .slider-slides {
+        position: relative;
+        height: 100%;
+    }
+
+    .proyecto1 {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #5F328B;
+        border-radius: 1vh;
+    }
+
+
+    .slider-slide-movil {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 1s ease;
+    }
+
+    .slider-slide-movil.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .slider-btns {
+        position: absolute;
+        width: 100%;
+        top: calc(50% - 2rem);
+        display: flex;
+        justify-content: space-between;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .prev,
+    .next {
+        font-size: 10vh;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titulo-proyecto {
+        font-size: 3.85vh;
+        color: #BFE4F8;
+        margin-bottom: 2.5vh;
+    }
+
+    .tecnologias-construccion {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 2vh;
+        width: 100%;
+        height: 30%;
+
+    }
+
+
+    .tecnologias-construccion img{
+        height:  100%;
+
+    }
+
+    .conteiner-main-proyecto {
+        width: 100%;
+        height: 33%;
+    }
+
+    .conteiner-main-proyecto.links {
+        width: 100%;
+        height: 25%;
+    }
+
+
+    .conteiner-button-proyecto {
+        width: 100%;
+        height: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-proyecto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFE02F;
+        width: 23vh;
+        height: 5.1vh;
+        border-radius: .5vh;
+        margin-left: 1vh;
+    }
+
+
+
+
+    /* /////////////////////////// Proyectos movil  //////////////////////////////// */
+
+
+
+    /* ///////////////////////////  habilidades movil //////////////////////////////// */
+
+
+    .main-habilidades{
+        display: none;
+    }
+    .main-habilidades-movil{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #5F318B;
+        border-radius: 1vh;
+        width: 75%;
+    }
+    .conteudo .row{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 25%;
+    }
+
+    .conteudo img{
+        width: 25%;
+        margin: 5%;
+    }
+
+
+    /* ///////////////////////////  habilidades movil //////////////////////////////// */
+
+
+
+
+
+    /* ///////////////////////////  contacto movil //////////////////////////////// */
+
+    .conteinerContacto form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .conteinerContacto {
+        border-radius: 1vh;
+        padding: 2vh;
+        width: 75%;
+        background-color: #5F328B;
+    }
+
+    .conteinerContacto form input {
+        height: 4.5vh;
+        border-radius: 0.5vh;
+        cursor: none;
+        width: 100%;
+        margin: 1vh;
+        border: none;
+        color: #BFE4F8;
+        background-color: #380E64;
+    }
+
+    .conteinerContacto form input::placeholder {
+        padding: 1vh;
+        font-family: dreamscape;
+        color: #BFE4F8;
+    }
+
+    .conteinerContacto form input:focus::placeholder {
+        color: #380E64;
+    }
+
+
+    .conteinerContacto form textarea {
+        height: 4.5vh;
+        border-radius: 0.5vh;
+        width: 100%;
+        margin: 1vh;
+        border: none;
+        color: #BFE4F8;
+        background-color: #380E64;
+        cursor: none;
+        max-height: 9vh;
+    }
+
+    .conteinerContacto form textarea::placeholder {
+        padding: 1vh;
+        font-family: dreamscape;
+        color: #BFE4F8;
+    }
+
+    .conteinerContacto form textarea:focus::placeholder {
+        color: #380E64;
+    }
+
+    .conteinerContacto input.button {
+        font-family: dreamscape;
+        background-color: #FFE02F;
+        color: #380E64;
+        width: 25%;
+    }
+
+    .conteinerContacto input.button:hover {
+        background-color: #ffec83;
+    }
+
+    /* ///////////////////////////   contacto movil  //////////////////////////////// */
+
+
 }
 
 
