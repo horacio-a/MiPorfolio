@@ -5,10 +5,14 @@ let navegador = navigator.userAgent;
 const tracker2 = document.querySelector(".tracker2");
 
 if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    console.log('pc')
+    
     tracker.classList.add('hidden')
     tracker2.classList.add('hidden')
 
 } else {
+    console.log('movil')
+
     document.body.addEventListener("mousemove", e => {
         tracker2.style.left = `${e.clientX}px`;
         tracker2.style.top = `${e.clientY}px`;
