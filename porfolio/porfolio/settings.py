@@ -21,10 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%56q424f*i$*pfk1!9f#f^%zkr%rva&$d^w8atz7#3)$6l-@6$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
-ALLOWED_HOSTS = ['horaciomalbornoz.com.ar', 'localhost', '127.0.0.1', 'horacio-albornoz.herokuapp.com']
+ALLOWED_HOSTS = ['horaciomalbornoz.com.ar', 'localhost', '127.0.0.1', 'horacio-albornoz.herokuapp.com', 'www.horaciomalbornoz.com.ar']
 
 
 # Application definition
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
 
-     "whitenoise.middleware.WhiteNoiseMiddleware",
+    # "whitenoise.middleware.WhiteNoiseMiddleware",
 
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -147,6 +147,6 @@ STATICFILES_DIRS = (
     os.path.join ( BASE_DIR , 'static' ) ,
 )
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
+# STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 
 

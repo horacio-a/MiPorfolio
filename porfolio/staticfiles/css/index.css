@@ -1,5 +1,5 @@
 
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 900px) {
     .conteiner-nombre p {
         color: #85bb65;
     }
@@ -645,7 +645,7 @@
 
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
-@media (min-width: 769px) {
+@media (min-width: 901px) {
     #main-contacto-movil {
         display: none;
     }

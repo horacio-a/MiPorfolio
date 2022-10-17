@@ -1,35 +1,59 @@
 const tracker = document.querySelector(".tracker");
-document.body.addEventListener("mousemove", e => {
-    tracker.style.left = `${e.clientX}px`;
-    tracker.style.top = `${e.clientY}px`;
-});
+
+let navegador = navigator.userAgent;
 
 const tracker2 = document.querySelector(".tracker2");
-document.body.addEventListener("mousemove", e => {
-    tracker2.style.left = `${e.clientX}px`;
-    tracker2.style.top = `${e.clientY}px`;
-});
+
+if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    console.log('pc')
+    
+    tracker.classList.add('hidden')
+    tracker2.classList.add('hidden')
+
+} else {
+    console.log('movil')
+
+    document.body.addEventListener("mousemove", e => {
+        tracker2.style.left = `${e.clientX}px`;
+        tracker2.style.top = `${e.clientY}px`;
+    });
+    document.body.addEventListener("mousemove", e => {
+        tracker.style.left = `${e.clientX}px`;
+        tracker.style.top = `${e.clientY}px`;
+    });
+
+}
+
+if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    tracker.classList.add('hidden')
+    tracker2.classList.add('hidden')
+
+}
+
+if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+    tracker.classList.add('hidden')
+    tracker2.classList.add('hidden')
+
+} else {
+    const icons = document.querySelectorAll('.icon')
 
 
-
-
-
-const icons = document.querySelectorAll('.icon')
-
-
-icons.forEach(icon => {
-    icon.addEventListener('mouseover', function () {
-        tracker.classList.add('hidden')
-        tracker2.classList.remove('hidden')
+    icons.forEach(icon => {
+        icon.addEventListener('mouseover', function () {
+            tracker.classList.add('hidden')
+            tracker2.classList.remove('hidden')
+        })
     })
-})
-
-icons.forEach(icon => {
-    icon.addEventListener('mouseout', function () {
-        tracker.classList.remove('hidden')
-        tracker2.classList.add('hidden')
+    
+    icons.forEach(icon => {
+        icon.addEventListener('mouseout', function () {
+            tracker.classList.remove('hidden')
+            tracker2.classList.add('hidden')
+        })
     })
-})
+    
+
+}
 
 
 const conteudo = document.querySelector('.conteudo')

@@ -177,6 +177,9 @@ function proyectoCriptoWord() {
     BotonesCriptoWord2.style.display = "none"
 
 }
+
+// ------------------botones de la pestaña proyectos- criptoword-----------------
+
 // ------------------------------------------CriptoWord movil--------------------------------------------------------------
 
 
@@ -229,6 +232,9 @@ function proyectoCriptoWordMovil() {
 
 // ----------------------------------------CriptoWord movil----------------------------------------------------------------
 
+// ------------------botones de la pestaña proyectos- Espacio Bonhomia-----------------
+
+
 
 var botonEcommerce1 = document.getElementById('boton-e-commerce1')
 var botonEcommerce2 = document.getElementById('boton-e-commerce2')
@@ -276,6 +282,8 @@ function proyectoEcommerce() {
     BotonesEcommerce2.style.display = "none"
 
 }
+// ------------------botones de la pestaña proyectos- Espacio Bonhomia----------------
+
 // ---------------------------------------- Espacio Bonhomia movil----------------------------------------------------------------
 
 
@@ -330,6 +338,7 @@ function proyectoEcommerceMovil() {
 
 
 
+// ------------------botones de la pestaña proyectos- calculadora-----------------
 
 
 var botoncalculadora1 = document.getElementById('botonCalculadora1')
@@ -380,6 +389,8 @@ function proyectoCalculadora() {
 
 
 }
+
+// ------------------botones de la pestaña proyectos- calculadora-----------------
 
 // ----------------------------------------Calculadora movil----------------------------------------------------------------
 
@@ -433,6 +444,64 @@ function proyectoCalculadoraMovil() {
 
 
 // ----------------------------------------Calculadora movil----------------------------------------------------------------
+
+
+// ------------------botones de la pestaña proyectos- chatPriv-----------------
+
+
+
+var botonchatPriv1 = document.getElementById('botonchatPriv1')
+var botonchatPriv2 = document.getElementById('botonchatPriv2')
+var botonchatPriv3 = document.getElementById('botonchatPriv3')
+var botonchatPriv4 = document.getElementById('botonchatPriv4')
+var botonchatPriv5 = document.getElementById('botonchatPriv5')
+var BotoneschatPriv1 = document.getElementById('BotoneschatPriv1')
+var BotoneschatPriv2 = document.getElementById('BotoneschatPriv2')
+
+
+
+
+
+function tecnologiaschatPriv() {
+    botonchatPriv1.style.display = 'none'
+    botonchatPriv2.style.display = 'none'
+    botonchatPriv3.style.display = 'flex'
+    botonchatPriv4.style.display = 'none'
+    botonchatPriv5.style.display = 'none'
+    BotoneschatPriv1.style.display = "flex"
+    BotoneschatPriv2.style.display = "flex"
+
+}
+
+
+
+function aparecerchatPriv() {
+    botonchatPriv1.style.display = 'flex'
+    botonchatPriv2.style.display = 'flex'
+    botonchatPriv3.style.display = 'none'
+    botonchatPriv4.style.display = 'none'
+    botonchatPriv5.style.display = 'none'
+    BotoneschatPriv1.style.display = "none"
+    BotoneschatPriv2.style.display = "none"
+
+}
+
+
+function proyectochatPriv() {
+    botonchatPriv1.style.display = 'none'
+    botonchatPriv2.style.display = 'none'
+    botonchatPriv3.style.display = 'flex'
+    botonchatPriv4.style.display = 'flex'
+    botonchatPriv5.style.display = 'flex'
+    BotoneschatPriv1.style.display = "none"
+    BotoneschatPriv2.style.display = "none"
+
+
+}
+
+// ------------------botones de la pestaña proyectos- chatPriv-----------------
+
+
 
 const nav = document.querySelector('.nav')
 
