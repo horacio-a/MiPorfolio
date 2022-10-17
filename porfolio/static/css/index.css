@@ -327,10 +327,8 @@
 
     /* -----------------------------------  inicio main-proyectos -------------------------------------------- */
     .main-proyecto-movil {
-        min-height: 85%;
         width: 100%;
-        height: auto;
-
+        height: 85%;
     }
     .main-proyecto-pc {
         display: none;
@@ -346,8 +344,7 @@
 
     .conteiner-proyectos {
         width: 90%;
-        min-height: 99.5%;
-        height: auto;
+        height: 100vh;
         background-color: #EEEBDD;
         border-radius: 1vw;
     }
