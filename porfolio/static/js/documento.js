@@ -502,6 +502,60 @@ function proyectochatPriv() {
 // ------------------botones de la pestaña proyectos- chatPriv-----------------
 
 
+// ------------------chatPriv movil -----------------
+
+
+
+var botonchatPriv1Movil = document.getElementById('botonchatPriv1Movil')
+var botonchatPriv2Movil = document.getElementById('botonchatPriv2Movil')
+var botonchatPriv3Movil = document.getElementById('botonchatPriv3Movil')
+var botonchatPriv4Movil = document.getElementById('botonchatPriv4Movil')
+var botonchatPriv5Movil = document.getElementById('botonchatPriv5Movil')
+var BotoneschatPriv1Movil = document.getElementById('BotoneschatPriv1Movil')
+var BotoneschatPriv2Movil = document.getElementById('BotoneschatPriv2Movil')
+
+
+
+
+
+function tecnologiaschatPrivMovil() {
+    botonchatPriv1Movil.style.display = 'none'
+    botonchatPriv2Movil.style.display = 'none'
+    botonchatPriv3Movil.style.display = 'flex'
+    botonchatPriv4Movil.style.display = 'none'
+    botonchatPriv5Movil.style.display = 'none'
+    BotoneschatPriv1Movil.style.display = "flex"
+    BotoneschatPriv2Movil.style.display = "flex"
+
+}
+
+
+
+function aparecerchatPrivMovil() {
+    botonchatPriv1Movil.style.display = 'flex'
+    botonchatPriv2Movil.style.display = 'flex'
+    botonchatPriv3Movil.style.display = 'none'
+    botonchatPriv4Movil.style.display = 'none'
+    botonchatPriv5Movil.style.display = 'none'
+    BotoneschatPriv1Movil.style.display = "none"
+    BotoneschatPriv2Movil.style.display = "none"
+
+}
+
+
+function proyectochatPrivMovil() {
+    botonchatPriv1Movil.style.display = 'none'
+    botonchatPriv2Movil.style.display = 'none'
+    botonchatPriv3Movil.style.display = 'flex'
+    botonchatPriv4Movil.style.display = 'flex'
+    botonchatPriv5Movil.style.display = 'flex'
+    BotoneschatPriv1Movil.style.display = "none"
+    BotoneschatPriv2Movil.style.display = "none"
+
+
+}
+
+// ------------------chatPriv movil-----------------
 
 const nav = document.querySelector('.nav')
 
@@ -545,5 +599,15 @@ const detalleCalculadora = document.getElementById('detalle-calculadora')
 iconCalculadora.addEventListener('click', function () {
     iconCalculadora.classList.toggle('abriricons')
     detalleCalculadora.classList.toggle('abrirdetalles')
+
+})
+
+const iconChat = document.getElementById('icon-Chat')
+const detalleChat = document.getElementById('detalle-Chat')
+
+
+iconChat.addEventListener('click', function () {
+    iconChat.classList.toggle('abriricons')
+    detalleChat.classList.toggle('abrirdetalles')
 
 })

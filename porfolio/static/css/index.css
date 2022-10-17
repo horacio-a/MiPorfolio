@@ -420,6 +420,11 @@
 
     }
 
+    #icon-Chat {
+        position: relative;
+        transform: translate(-50%);
+    }
+
     .detalles {
         position: relative;
         transform: translate(50%);
