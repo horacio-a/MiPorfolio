@@ -331,7 +331,8 @@
         display: none;
     }
     .main-proyecto-movil {
-        height: 85%;
+        min-height: 85%;
+        height: auto;
         width: 100%;
     }
 
@@ -344,7 +345,8 @@
 
     .conteiner-proyectos {
         width: 90%;
-        height: 100%;
+        min-height: 100%;
+        height: auto;
         background-color: #EEEBDD;
         border-radius: 1vw;
     }

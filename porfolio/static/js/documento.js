@@ -611,3 +611,4 @@ iconChat.addEventListener('click', function () {
     detalleChat.classList.toggle('abrirdetalles')
 
 })
+
