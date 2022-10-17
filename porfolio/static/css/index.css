@@ -326,15 +326,16 @@
     /* -----------------------------------  fin main-quiensoy -------------------------------------------- */
 
     /* -----------------------------------  inicio main-proyectos -------------------------------------------- */
+    .main-proyecto-movil {
+        min-height: 85%;
+        width: 100%;
+        height: auto;
 
+    }
     .main-proyecto-pc {
         display: none;
     }
-    .main-proyecto-movil {
-        min-height: 85%;
-        height: auto;
-        width: 100%;
-    }
+
 
     .titulo-proyecto {
         text-align: center;
