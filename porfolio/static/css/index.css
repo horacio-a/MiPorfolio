@@ -340,13 +340,12 @@
         text-align: center;
         color: #85bb65;
         font-size: 4.5vh;
-        margin-bottom: 5vw;
+        margin-bottom: 2.5vh;
     }
 
     .conteiner-proyectos {
         width: 90%;
-        min-height: 100%;
-        height: auto;
+        height: 100vh;
         background-color: #EEEBDD;
         border-radius: 1vw;
     }
