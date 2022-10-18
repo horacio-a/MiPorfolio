@@ -1051,7 +1051,11 @@
         margin-left: 1vh;
     }
 
+    a.button-proyecto{ 
+        color: #BFE4F8;
+        text-decoration: none;
 
+    }
 
 
     /* /////////////////////////// Proyectos movil  //////////////////////////////// */

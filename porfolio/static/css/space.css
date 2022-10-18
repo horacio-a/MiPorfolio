@@ -459,7 +459,12 @@
         margin-left: 1vh;
     }
 
+    a.button-proyecto{ 
+        color: #1B1717;
+        text-decoration: none;
+        cursor: none;
 
+    }
 
 
     /* /////////////////////////// Proyectos movil  //////////////////////////////// */
@@ -1050,7 +1055,6 @@
         border-radius: .5vh;
         margin-left: 1vh;
     }
-
 
 
 
@@ -1875,6 +1879,14 @@
         height: 5.1vh;
         border-radius: .5vh;
         margin-left: 1vh;
+    }
+
+    
+    a.button-proyecto{ 
+        color: #1B1717;
+        text-decoration: none;
+        cursor: none;
+
     }
 
     /* /////////////////////////// proyecto //////////////////////////////// */
