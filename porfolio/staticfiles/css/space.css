@@ -4,7 +4,9 @@
 }
 
 
-
+a{
+    text-decoration: none;
+}
 
 @media (min-width: 0px) and (max-width: 950px) {
     body {
@@ -459,7 +461,10 @@
         margin-left: 1vh;
     }
 
-
+    a.button-proyecto{ 
+        color: #1B1717;
+        text-decoration: none;
+    }
 
 
     /* /////////////////////////// Proyectos movil  //////////////////////////////// */
@@ -594,6 +599,11 @@
 
 
 @media (min-width: 951px) and (max-width: 1199px) {
+    
+    a.button-proyecto{ 
+        color: #1B1717;
+        text-decoration: none;
+    }
     body {
         cursor: none;
         overflow: hidden;
@@ -1051,11 +1061,6 @@
         margin-left: 1vh;
     }
 
-    a.button-proyecto{ 
-        color: #BFE4F8;
-        text-decoration: none;
-
-    }
 
 
     /* /////////////////////////// Proyectos movil  //////////////////////////////// */
@@ -1879,6 +1884,14 @@
         height: 5.1vh;
         border-radius: .5vh;
         margin-left: 1vh;
+    }
+
+    
+    a.button-proyecto{ 
+        color: #1B1717;
+        text-decoration: none;
+        cursor: none;
+
     }
 
     /* /////////////////////////// proyecto //////////////////////////////// */
