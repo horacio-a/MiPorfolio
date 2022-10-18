@@ -612,3 +612,12 @@ iconChat.addEventListener('click', function () {
 
 })
 
+
+
+const cantProyectos = document.querySelectorAll('.bloque-proyecto')
+const conteinerProyecto = document.getElementById('conteiner-proyectos')
+
+const height = cantProyectos.length * 18.5 + 7
+
+
+conteinerProyecto.style.height = '81vh'

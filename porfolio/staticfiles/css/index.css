@@ -345,8 +345,6 @@
 
     .conteiner-proyectos {
         width: 90%;
-        min-height: 100%;
-        height: auto;
         background-color: #EEEBDD;
         border-radius: 1vw;
     }
