@@ -326,25 +326,26 @@
     /* -----------------------------------  fin main-quiensoy -------------------------------------------- */
 
     /* -----------------------------------  inicio main-proyectos -------------------------------------------- */
-
+    .main-proyecto-movil {
+        width: 100%;
+        min-height: 85%;
+        height: auto;
+    }
     .main-proyecto-pc {
         display: none;
     }
-    .main-proyecto-movil {
-        height: 85%;
-        width: 100%;
-    }
+
 
     .titulo-proyecto {
         text-align: center;
         color: #85bb65;
         font-size: 4.5vh;
-        margin-bottom: 5vw;
+        margin-bottom: 2.5vh;
     }
 
     .conteiner-proyectos {
         width: 90%;
-        height: 100%;
+        height: 100vh;
         background-color: #EEEBDD;
         border-radius: 1vw;
     }
@@ -418,6 +419,11 @@
         position: relative;
         transform: translate(-50%);
 
+    }
+
+    #icon-Chat {
+        position: relative;
+        transform: translate(-50%);
     }
 
     .detalles {
