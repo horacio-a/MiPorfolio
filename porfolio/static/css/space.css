@@ -4,7 +4,9 @@
 }
 
 
-
+a{
+    text-decoration: none;
+}
 
 @media (min-width: 0px) and (max-width: 950px) {
     body {
@@ -462,8 +464,6 @@
     a.button-proyecto{ 
         color: #1B1717;
         text-decoration: none;
-        cursor: none;
-
     }
 
 
@@ -599,6 +599,11 @@
 
 
 @media (min-width: 951px) and (max-width: 1199px) {
+    
+    a.button-proyecto{ 
+        color: #1B1717;
+        text-decoration: none;
+    }
     body {
         cursor: none;
         overflow: hidden;
