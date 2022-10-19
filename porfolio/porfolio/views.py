@@ -9,6 +9,8 @@ from decouple import config
 
 
 def inicio(request):
+
+
     pagina = randint(1 , 2)
     if pagina == 1 :
         return redirect('/eyes', request );
