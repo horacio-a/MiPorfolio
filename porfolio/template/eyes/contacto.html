@@ -113,17 +113,11 @@ Contacto
 
                 <form action="/eyes/contacto/" method="POST">
                     {% csrf_token %}
-                    <input type="email" placeholder="Email" class="form-control text-bg-dark text-white mb-3"
-                        name="email">
-                    <input type="text" placeholder="Nombre" class="form-control text-bg-dark text-white mb-3"
-                        name="name">
-                    <input type="text" placeholder="Asunto" class="form-control text-bg-dark text-white mb-3"
-                        name="subject">
-                    <textarea placeholder="Mensaje" class="form-control text-bg-dark text-white mb-3"
-                        name="message"></textarea>
-                    <div class="d-flex justify-content-center">
-                        <input type="submit" class="btn btn-dark btn-lg "></input>
-                    </div>
+                    <input type="email" placeholder="Email" class="form-pc" name="email">
+                    <input type="text" placeholder="Nombre" class="form-pc" name="name">
+                    <input type="text" placeholder="Asunto" class="form-pc" name="subject">
+                    <textarea placeholder="Mensaje" class="form-pc" name="message"></textarea>
+                    <input type="submit" class="contactoBtn"></input>
                 </form>
 
 
