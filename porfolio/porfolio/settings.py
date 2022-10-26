@@ -15,7 +15,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG =  config('DEBUG', cast=bool)
 
 
-ALLOWED_HOSTS = ['horaciomalbornoz.com.ar', 'localhost', '127.0.0.1', 'horacio-albornoz.herokuapp.com']
+ALLOWED_HOSTS = ['horaciomalbornoz.com.ar', 'localhost', '127.0.0.1', 'horacio-albornoz.herokuapp.com', 'www.horaciomalbornoz.com.ar']
 
 
 # Application definition
