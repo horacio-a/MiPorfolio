@@ -208,18 +208,42 @@ Mis proyectos
                     </div>
                     <div class="bloque-tecnologia-unidad ">
                         <div class="view view-tenth center-flex-j center-flex-ai">
-                            <img src="" width="75%" />
+                            <img src='{% static "imagenes/eyes/nextchange.png" %}' width="100%" />
                             <div class="mask">
                                 <div class="titulo-mask">
-                                    Proximamente
+                                    NextChange
                                 </div>
                                 <div class="conjunto-botones">
-                                    <a href="" class="boton-proyectos">
-                                    </a>
-                                    <a href="" class="boton-proyectos">
-                                    </a>
-                                    <a href="" class="boton-proyectos">
-                                    </a>
+                                    <button type="button" class="boton-proyectos" id="botonNext1"
+                                        onclick="tecnologiasNextChange()">
+                                        Construida en...
+                                    </button>
+                                    <button class="boton-proyectos" id="botonNext2" onclick="proyectoNextChange()">
+                                        Ver el Proyecto
+                                    </button>
+
+
+
+                                    <a href="https://github.com/horacio-a/Next-Change-Front" target="_blank" class="boton-proyectos" id="botonNext4"
+                                        style="display: none;">github</a>
+
+                                    <a href="https://next-change.herokuapp.com" target="_blank" class="boton-proyectos"
+                                        id="botonNext5" style="display: none;">ver
+                                        en la web</a>
+
+                                    <div class="estructurabotones" id="BotonesNext1">
+                                        <div class="miniboton-proyectos"> HTML</div>
+                                        <div class="miniboton-proyectos"> CSS</div>
+                                    </div>
+
+                                    <div class="estructurabotones" id="BotonesNext2">
+                                        <div class="miniboton-proyectos">Node.js</div>
+                                        <div class="miniboton-proyectos">React.js</div>
+                                    </div>
+
+                                    <div class="miniboton-proyectos" id="botonNext3" onclick="aparecerNextChange()"
+                                        style="display: none;"> Volver</div>
+
                                 </div>
                             </div>
                         </div>

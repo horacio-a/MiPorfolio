@@ -557,6 +557,79 @@ function proyectochatPrivMovil() {
 
 // ------------------chatPriv movil-----------------
 
+
+
+
+
+
+
+// ------------------botones de la pestaña proyectos- NextChange-----------------
+
+
+
+var botonNext1 = document.getElementById('botonNext1')
+var botonNext2 = document.getElementById('botonNext2')
+var botonNext3 = document.getElementById('botonNext3')
+var botonNext4 = document.getElementById('botonNext4')
+var botonNext5 = document.getElementById('botonNext5')
+var BotonesNext1 = document.getElementById('BotonesNext1')
+var BotonesNext2 = document.getElementById('BotonesNext2')
+
+
+
+
+
+function tecnologiasNextChange() {
+    botonNext1.style.display = 'none'
+    botonNext2.style.display = 'none'
+    botonNext3.style.display = 'flex'
+    botonNext4.style.display = 'none'
+    botonNext5.style.display = 'none'
+    BotonesNext1.style.display = "flex"
+    BotonesNext2.style.display = "flex"
+
+}
+
+
+
+function aparecerNextChange() {
+    botonNext1.style.display = 'flex'
+    botonNext2.style.display = 'flex'
+    botonNext3.style.display = 'none'
+    botonNext4.style.display = 'none'
+    botonNext5.style.display = 'none'
+    BotonesNext1.style.display = "none"
+    BotonesNext2.style.display = "none"
+
+}
+
+
+function proyectoNextChange() {
+    botonNext1.style.display = 'none'
+    botonNext2.style.display = 'none'
+    botonNext3.style.display = 'flex'
+    botonNext4.style.display = 'flex'
+    botonNext5.style.display = 'flex'
+    BotonesNext1.style.display = "none"
+    BotonesNext2.style.display = "none"
+
+
+}
+
+// ------------------botones de la pestaña proyectos- NextChange-----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 const nav = document.querySelector('.nav')
 
 
