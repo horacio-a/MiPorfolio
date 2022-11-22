@@ -401,30 +401,35 @@
         justify-content: center;
     }
 
+
     #icons {
         position: relative;
         transform: translate(-50%);
-
     }
-
 
 
     #icon-bonhomia {
         position: relative;
         transform: translate(-50%);
-
     }
 
     #icon-calculadora {
         position: relative;
         transform: translate(-50%);
-
     }
 
     #icon-Chat {
         position: relative;
         transform: translate(-50%);
     }
+
+
+    #icon-NextChange {
+        position: relative;
+        transform: translate(-50%);
+    }
+
+    
 
     .detalles {
         position: relative;
@@ -1271,7 +1276,7 @@
     }
 
 
-    .form-pc{
+    .form-pc {
         font-family: Cinzel;
         font-size: 100%;
         background-color: #1B1717;
@@ -1283,13 +1288,14 @@
         margin-bottom: 1vh;
         padding: 10px;
     }
-    .form-pc::placeholder{
+
+    .form-pc::placeholder {
         font-family: Cinzel;
         font-size: 100%;
         color: #EEEBDD;
     }
 
-    .contactoBtn{
+    .contactoBtn {
         cursor: pointer;
         border-radius: 1vh;
         color: #EEEBDD;
@@ -1298,7 +1304,7 @@
         background-color: #1B1717;
     }
 
-    .contactoBtn:hover{
+    .contactoBtn:hover {
         cursor: pointer;
         border-radius: 1vh;
         color: #1B1717;

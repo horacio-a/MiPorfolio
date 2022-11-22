@@ -230,6 +230,14 @@ function proyectoCriptoWordMovil() {
 
 }
 
+const icons = document.getElementById('icons')
+const detalleCriptoword = document.getElementById('detalle-criptoword')
+
+icons.addEventListener('click', function () {
+    icons.classList.toggle('abriricons')
+    detalleCriptoword.classList.toggle('abrirdetalles')
+
+})
 // ----------------------------------------CriptoWord movil----------------------------------------------------------------
 
 // ------------------botones de la pestaña proyectos- Espacio Bonhomia-----------------
@@ -333,6 +341,16 @@ function proyectoEcommerceMovil() {
     BotonesEcommerce2Movil.style.display = "none"
 
 }
+
+const iconBonhomia = document.getElementById('icon-bonhomia')
+const detallebonhomia = document.getElementById('detalle-bonhomia')
+
+
+iconBonhomia.addEventListener('click', function () {
+    iconBonhomia.classList.toggle('abriricons')
+    detallebonhomia.classList.toggle('abrirdetalles')
+
+})
 
 // ----------------------------------------Espacio Bonhomia movil----------------------------------------------------------------
 
@@ -441,6 +459,21 @@ function proyectoCalculadoraMovil() {
     Botonescalculadora1Movil.style.display = "none"
     Botonescalculadora2Movil.style.display = "none"
 }
+
+
+const iconCalculadora = document.getElementById('icon-calculadora')
+const detalleCalculadora = document.getElementById('detalle-calculadora')
+
+
+iconCalculadora.addEventListener('click', function () {
+    iconCalculadora.classList.toggle('abriricons')
+    detalleCalculadora.classList.toggle('abrirdetalles')
+
+})
+
+
+
+
 
 
 // ----------------------------------------Calculadora movil----------------------------------------------------------------
@@ -555,7 +588,146 @@ function proyectochatPrivMovil() {
 
 }
 
+const iconChat = document.getElementById('icon-Chat')
+const detalleChat = document.getElementById('detalle-Chat')
+
+
+iconChat.addEventListener('click', function () {
+    iconChat.classList.toggle('abriricons')
+    detalleChat.classList.toggle('abrirdetalles')
+
+})
 // ------------------chatPriv movil-----------------
+
+
+
+
+
+
+
+// ------------------botones de la pestaña proyectos- NextChange-----------------
+
+
+
+var botonNext1 = document.getElementById('botonNext1')
+var botonNext2 = document.getElementById('botonNext2')
+var botonNext3 = document.getElementById('botonNext3')
+var botonNext4 = document.getElementById('botonNext4')
+var botonNext5 = document.getElementById('botonNext5')
+var BotonesNext1 = document.getElementById('BotonesNext1')
+var BotonesNext2 = document.getElementById('BotonesNext2')
+
+
+
+
+
+function tecnologiasNextChange() {
+    botonNext1.style.display = 'none'
+    botonNext2.style.display = 'none'
+    botonNext3.style.display = 'flex'
+    botonNext4.style.display = 'none'
+    botonNext5.style.display = 'none'
+    BotonesNext1.style.display = "flex"
+    BotonesNext2.style.display = "flex"
+
+}
+
+
+
+function aparecerNextChange() {
+    botonNext1.style.display = 'flex'
+    botonNext2.style.display = 'flex'
+    botonNext3.style.display = 'none'
+    botonNext4.style.display = 'none'
+    botonNext5.style.display = 'none'
+    BotonesNext1.style.display = "none"
+    BotonesNext2.style.display = "none"
+
+}
+
+
+function proyectoNextChange() {
+    botonNext1.style.display = 'none'
+    botonNext2.style.display = 'none'
+    botonNext3.style.display = 'flex'
+    botonNext4.style.display = 'flex'
+    botonNext5.style.display = 'flex'
+    BotonesNext1.style.display = "none"
+    BotonesNext2.style.display = "none"
+
+
+}
+
+// ------------------botones de la pestaña proyectos- NextChange-----------------
+
+
+
+
+// ------------------NextChange movil-----------------
+
+
+
+var botonNext1Movil = document.getElementById('botonNext1Movil')
+var botonNext2Movil = document.getElementById('botonNext2Movil')
+var botonNext3Movil = document.getElementById('botonNext3Movil')
+var botonNext4Movil = document.getElementById('botonNext4Movil')
+var botonNext5Movil = document.getElementById('botonNext5Movil')
+var BotonesNext1Movil = document.getElementById('BotonesNext1Movil')
+var BotonesNext2Movil = document.getElementById('BotonesNext2Movil')
+
+
+
+
+
+function tecnologiasNextChangeMovil() {
+    botonNext1Movil.style.display = 'none'
+    botonNext2Movil.style.display = 'none'
+    botonNext3Movil.style.display = 'flex'
+    botonNext4Movil.style.display = 'none'
+    botonNext5Movil.style.display = 'none'
+    BotonesNext1Movil.style.display = "flex"
+    BotonesNext2Movil.style.display = "flex"
+}
+
+
+
+function aparecerNextChangeMovil() {
+    botonNext1Movil.style.display = 'flex'
+    botonNext2Movil.style.display = 'flex'
+    botonNext3Movil.style.display = 'none'
+    botonNext4Movil.style.display = 'none'
+    botonNext5Movil.style.display = 'none'
+    BotonesNext1Movil.style.display = "none"
+    BotonesNext2Movil.style.display = "none"
+}
+
+
+function proyectoNextChangeMovil() {
+    botonNext1Movil.style.display = 'none'
+    botonNext2Movil.style.display = 'none'
+    botonNext3Movil.style.display = 'flex'
+    botonNext4Movil.style.display = 'flex'
+    botonNext5Movil.style.display = 'flex'
+    BotonesNext1Movil.style.display = "none"
+    BotonesNext2Movil.style.display = "none"
+}
+
+
+
+const iconNextChange = document.getElementById('icon-NextChange')
+const detalleNextChange = document.getElementById('detalleNextChange')
+
+
+iconNextChange.addEventListener('click', function () {
+    iconNextChange.classList.toggle('abriricons')
+    detalleNextChange.classList.toggle('abrirdetalles')
+
+})
+// ------------------NextChange movil -----------------
+
+
+
+
 
 const nav = document.querySelector('.nav')
 
@@ -567,50 +739,6 @@ button.addEventListener('click', () => {
     nav.classList.toggle('activo')
 })
 
-
-
-const icons = document.getElementById('icons')
-const detalleCriptoword = document.getElementById('detalle-criptoword')
-
-icons.addEventListener('click', function () {
-    icons.classList.toggle('abriricons')
-    detalleCriptoword.classList.toggle('abrirdetalles')
-
-})
-
-
-
-
-const iconBonhomia = document.getElementById('icon-bonhomia')
-const detallebonhomia = document.getElementById('detalle-bonhomia')
-
-
-iconBonhomia.addEventListener('click', function () {
-    iconBonhomia.classList.toggle('abriricons')
-    detallebonhomia.classList.toggle('abrirdetalles')
-
-})
-
-
-const iconCalculadora = document.getElementById('icon-calculadora')
-const detalleCalculadora = document.getElementById('detalle-calculadora')
-
-
-iconCalculadora.addEventListener('click', function () {
-    iconCalculadora.classList.toggle('abriricons')
-    detalleCalculadora.classList.toggle('abrirdetalles')
-
-})
-
-const iconChat = document.getElementById('icon-Chat')
-const detalleChat = document.getElementById('detalle-Chat')
-
-
-iconChat.addEventListener('click', function () {
-    iconChat.classList.toggle('abriricons')
-    detalleChat.classList.toggle('abrirdetalles')
-
-})
 
 
 
