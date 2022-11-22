@@ -230,14 +230,7 @@ function proyectoCriptoWordMovil() {
 
 }
 
-const icons = document.getElementById('icons')
-const detalleCriptoword = document.getElementById('detalle-criptoword')
 
-icons.addEventListener('click', function () {
-    icons.classList.toggle('abriricons')
-    detalleCriptoword.classList.toggle('abrirdetalles')
-
-})
 // ----------------------------------------CriptoWord movil----------------------------------------------------------------
 
 // ------------------botones de la pestaña proyectos- Espacio Bonhomia-----------------
@@ -342,15 +335,9 @@ function proyectoEcommerceMovil() {
 
 }
 
-const iconBonhomia = document.getElementById('icon-bonhomia')
-const detallebonhomia = document.getElementById('detalle-bonhomia')
 
 
-iconBonhomia.addEventListener('click', function () {
-    iconBonhomia.classList.toggle('abriricons')
-    detallebonhomia.classList.toggle('abrirdetalles')
 
-})
 
 // ----------------------------------------Espacio Bonhomia movil----------------------------------------------------------------
 
@@ -459,20 +446,6 @@ function proyectoCalculadoraMovil() {
     Botonescalculadora1Movil.style.display = "none"
     Botonescalculadora2Movil.style.display = "none"
 }
-
-
-const iconCalculadora = document.getElementById('icon-calculadora')
-const detalleCalculadora = document.getElementById('detalle-calculadora')
-
-
-iconCalculadora.addEventListener('click', function () {
-    iconCalculadora.classList.toggle('abriricons')
-    detalleCalculadora.classList.toggle('abrirdetalles')
-
-})
-
-
-
 
 
 
@@ -588,15 +561,7 @@ function proyectochatPrivMovil() {
 
 }
 
-const iconChat = document.getElementById('icon-Chat')
-const detalleChat = document.getElementById('detalle-Chat')
 
-
-iconChat.addEventListener('click', function () {
-    iconChat.classList.toggle('abriricons')
-    detalleChat.classList.toggle('abrirdetalles')
-
-})
 // ------------------chatPriv movil-----------------
 
 
@@ -714,15 +679,7 @@ function proyectoNextChangeMovil() {
 
 
 
-const iconNextChange = document.getElementById('icon-NextChange')
-const detalleNextChange = document.getElementById('detalleNextChange')
 
-
-iconNextChange.addEventListener('click', function () {
-    iconNextChange.classList.toggle('abriricons')
-    detalleNextChange.classList.toggle('abrirdetalles')
-
-})
 // ------------------NextChange movil -----------------
 
 
@@ -738,6 +695,63 @@ const button = document.getElementById('button')
 button.addEventListener('click', () => {
     nav.classList.toggle('activo')
 })
+
+
+
+const iconBonhomia = document.getElementById('icon-bonhomia')
+const detallebonhomia = document.getElementById('detalle-bonhomia')
+
+
+iconBonhomia.addEventListener('click', function () {
+    iconBonhomia.classList.toggle('abriricons')
+    detallebonhomia.classList.toggle('abrirdetalles')
+
+})
+
+
+const iconCalculadora = document.getElementById('icon-calculadora')
+const detalleCalculadora = document.getElementById('detalle-calculadora')
+
+iconCalculadora.addEventListener('click', function () {
+    iconCalculadora.classList.toggle('abriricons')
+    detalleCalculadora.classList.toggle('abrirdetalles')
+
+})
+
+
+const iconChat = document.getElementById('icon-Chat')
+const detalleChat = document.getElementById('detalle-Chat')
+
+
+iconChat.addEventListener('click', function () {
+    iconChat.classList.toggle('abriricons')
+    detalleChat.classList.toggle('abrirdetalles')
+
+})
+
+
+const iconNextChange = document.getElementById('icon-NextChange')
+const detalleNextChange = document.getElementById('detalleNextChange')
+
+
+iconNextChange.addEventListener('click', function () {
+    iconNextChange.classList.toggle('abriricons')
+    detalleNextChange.classList.toggle('abrirdetalles')
+
+})
+
+
+
+
+const iconsCriptoword = document.getElementById('icons-criptoword')
+const detalleCriptoword = document.getElementById('detalle-criptoword')
+
+iconsCriptoword.addEventListener('click', function () {
+    iconsCriptoword.classList.toggle('abriricons')
+    detalleCriptoword.classList.toggle('abrirdetalles')
+
+})
+
 
 
 
