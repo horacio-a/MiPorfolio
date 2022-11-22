@@ -426,6 +426,12 @@
         transform: translate(-50%);
     }
 
+    
+    #icon-NextChange {
+        position: relative;
+        transform: translate(-50%);
+    }
+
     .detalles {
         position: relative;
         transform: translate(50%);
