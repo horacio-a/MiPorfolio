@@ -4,9 +4,13 @@ const si = 0;
 document.querySelector('body').addEventListener('mousemove', eyeball);
 function eyeball() {
     const eye = document.querySelectorAll('.eye');
+    console.log(event.pageX, event.pageY)
     eye.forEach(function (eye) {
         let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+        console.log(x)
         let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2);
+        console.log(y)
+
         let radian = Math.atan2(event.pageX - x, event.pageY - y);
         let rotation = (radian * (180 / Math.PI) * -1) + 270;
         eye.style.transform = "rotate(" + rotation + "deg) "
